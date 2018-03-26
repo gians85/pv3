@@ -1,0 +1,2949 @@
+###############################################################################
+#
+# IAR ELF Linker V7.70.1.11437/W32 for ARM                26/Mar/2018  14:42:05
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Exe\name.out
+#    Map file     =  C:\Users\Gianluca\mbedOSdev\pv3\BUILD\List\name.map
+#    Command line =  
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\aes.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\aesni.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\AnalogIn.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\arc4.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\asn1parse.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\asn1write.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ATCmdParser.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\base64.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\bignum.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BLE.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BLEInstanceBase.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\blowfish.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\Blue1.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_adc.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_dma.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_flash.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_gpio.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_i2c.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_it.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_mft.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_pka.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_rng.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_rtc.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_sleep.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_spi.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_sysCtrl.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_uart.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BlueNRG1_wdg.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BusIn.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BusInOut.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\BusOut.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\CallChain.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\camellia.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\CAN.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ccm.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ccsbcs.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\certs.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ChainingBlockDevice.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\cipher.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\cipher_wrap.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\clock.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\cmac.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\cmain.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\cmsis_nvic.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\cmsis_os1.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ConditionVariable.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\context_switch.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ctr_drbg.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\debug.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\des.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\DFUService.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\dhm.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\Dir.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\DiscoveredCharacteristic.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ecdh.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ecdsa.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ecjpake.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ecp.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ecp_curves.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\entropy.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\entropy_poll.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\equeue.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\equeue_mbed.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\equeue_posix.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\error.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\Ethernet.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\EventFlags.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\EventQueue.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\FATFileSystem.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ff.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\File.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\FileBase.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\FileHandle.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\FilePath.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\FileSystem.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\FileSystemHandle.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\FlashIAP.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\GapScanningParams.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\gatt_db.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\gcm.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\GenericGattClient.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\gp_timer.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\gpio_api.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\havege.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\HeapBlockDevice.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\hmac_drbg.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\I2C.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\I2CSlave.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\IMU.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\InterruptIn.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\InterruptManager.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\irq_cm0.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BLUE1\Bluetooth_LE\library\libbluenrg1_stack.a
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\LocalFileSystem.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\main.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_alloc_wrappers.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_application.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_assert.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_board.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_boot.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_critical.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_error.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_flash_api.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_gpio.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_interface.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_lp_ticker_api.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_mem_trace.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_mktime.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_overrides.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_pinmap_common.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_poll.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_retarget.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_rtc_time.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_rtx_handlers.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_rtx_idle.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_sdk_boot.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_semihost_api.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_shared_queues.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_sleep_manager.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_stats.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_ticker_api.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_trng.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_us_ticker_api.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_wait_api_no_rtos.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\mbed_wait_api_rtos.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\MBRBlockDevice.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\md.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\md2.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\md4.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\md5.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\md_wrap.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\memory_buffer_alloc.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\misc.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\Mutex.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\net_sockets.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\oid.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\oldmain.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\os_systick.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\os_tick_ptim.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\osal.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\padlock.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\pem.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\pin_device.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\pinmap.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\pk.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\pk_wrap.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\pkcs11.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\pkcs12.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\pkcs5.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\pkparse.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\pkwrite.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\platform.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ProfilingBlockDevice.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\RawSerial.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ripemd160.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rsa.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rt_OsEventObserver.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\RtosTimer.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\RTX_Config.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_delay.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_evflags.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_evr.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_kernel.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_lib.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_memory.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_mempool.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_msgqueue.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_mutex.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_semaphore.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_system.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_thread.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\rtx_timer.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\Semaphore.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\Serial.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\serial_api.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\SerialBase.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\sha1.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\sha256.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\sha512.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\SlicingBlockDevice.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\SPI.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\spi_api.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\SPISlave.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ssl_cache.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ssl_ciphersuites.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ssl_cli.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ssl_cookie.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ssl_srv.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ssl_ticket.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\ssl_tls.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\startup_bluenrg1.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\Stream.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\system_bluenrg1.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\Thread.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\threading.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\Ticker.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\Timeout.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\Timer.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\TimerEvent.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\timing.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\UARTSerial.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\UARTService.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\URIBeaconConfigService.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\us_ticker_api.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\version.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\version_features.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\x509.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\x509_create.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\x509_crl.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\x509_crt.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\x509_csr.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\x509write_crt.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\x509write_csr.o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj\xtea.o -o
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Exe\name.out --redirect
+#        _Printf=_PrintfLarge --redirect _Scanf=_ScanfFull --map
+#        C:\Users\Gianluca\mbedOSdev\pv3\BUILD\List\name.map --config
+#        C:\Users\Gianluca\mbedOSdev\pv3\.\mbed-os\targets\TARGET_STMBLUE\TARGET_BLUENRG1\TARGET_STEVAL_IDB007V1\device\TOOLCHAIN_IAR\BLUENRG1.icf
+#        --skip_dynamic_initialization --threaded_lib --entry
+#        __iar_program_start --no_exceptions --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__CPP_Exceptions              = Disabled
+__CPP_Language                = C++
+__Heap_Handler                = DLMalloc
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = postponed
+__dlib_has_iterator_debugging = 0
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x200000c0 { block BLUE };
+"A3":  place at start of [0x10040000-0x10066fff] { ro section .intvec };
+"A4":  place at 0x20000004 { block ota_sw_activation_block };
+"A5":  place at 0x20000008 { block savedMSP_block };
+"A6":  place at 0x2000000c { block wakeupFromSleepFlag_block };
+"A7":  place at 0x20000010 { block app_base_block };
+"A8":  place at 0x20000030 { block Blue_Flag_Ram_block };
+"P2":  place in [from 0x10040000 to 0x10066fff] { ro };
+"P3":  place in [from 0x200000c0 to 0x20005fff] { rw };
+"A10": place at end of [0x200000c0-0x20005fff] { block CSTACK, block HEAP };
+initialize by copy { rw };
+ { section .bss.__blue_RAM };
+ { section .intvec };
+ { section .ota_sw_activation };
+ { section .savedMSP };
+ { section .wakeupFromSleepFlag };
+ { section .app_base };
+ { section .__blueflag_RAM };
+
+  Section                 Kind        Address     Size  Object
+  -------                 ----        -------     ----  ------
+"A3":                                             0xc0
+  .intvec                 ro code  0x10040000     0xc0  startup_bluenrg1.o [1]
+                                 - 0x100400c0     0xc0
+
+"P2":                                          0x12ed3
+  i.RAL_Isr               ro code  0x100400c0   0x1714  ll_isr.o [5]
+  i.Timer_ExpiryCallback  ro code  0x100417d4     0x14  host_timer.o [5]
+  i.Is_Flash_Write_On_Going
+                          ro code  0x100417e8     0x10  nvm.o [5]
+  i.advance_wakeup_timer  ro code  0x100417f8    0x4d4  advance_wakeup_time.o [5]
+  i.get_scan_addr         ro code  0x10041ccc     0x2e  rom_ll_isr_routines.o [5]
+  .text                   ro code  0x10041cfa     0x1e  main.o [1]
+  i.PRIV_u32ProcessAdvPacket
+                          ro code  0x10041d18    0x698  ll_privacy.o [5]
+  i.get_adv_addr          ro code  0x100423b0     0x2c  rom_ll_isr_routines.o [5]
+  i.PRIV_SearchAddrInWhiteList
+                          ro code  0x100423dc     0x48  ll_privacy.o [5]
+  i.go_to_connect         ro code  0x10042424    0x278  rom_ll_isr_routines.o [5]
+  i.cancel_current_master
+                          ro code  0x1004269c    0x19c  multi_master_time.o [5]
+  i.machine_time_trans    ro code  0x10042838     0x20  rom_ll_timehandling.o [5]
+  i.unpack_update_request
+                          ro code  0x10042858     0x46  rom_ll_isr_routines.o [5]
+  i.unpack_channel_map    ro code  0x1004289e     0x38  rom_ll_isr_routines.o [5]
+  i.char_copy             ro code  0x100428d6     0x12  hal.o [5]
+  i.LL_receive_data_patch
+                          ro code  0x100428e8     0xc4  isr_routines.o [5]
+  i.isr_postproc1         ro code  0x100429ac    0x14c  rom_ll_isr_postproc.o [5]
+  i.LL_update_proc        ro code  0x10042af8     0x58  rom_ll_isr_routines.o [5]
+  i.modulo_37             ro code  0x10042b50     0x18  rom_ll_routines_support.o [5]
+  i.advance_slave_timing_MultiSlave
+                          ro code  0x10042b68    0x438  multi_master_time.o [5]
+  i.set_string            ro code  0x10042fa0     0x10  hal.o [5]
+  i.go_to_connect_master  ro code  0x10042fb0    0x198  isr_routines.o [5]
+  i.system_time_trans     ro code  0x10043148      0xa  rom_ll_timehandling.o [5]
+  i.isr_postproc_encrypt_data
+                          ro code  0x10043152     0x16  rom_ll_isr_postproc.o [5]
+  i.anchor_replace        ro code  0x10043168     0x50  multi_master_time.o [5]
+  i.read_rssi             ro code  0x100431b8     0x70  ll_routines.o [5]
+  i.isr_event_handler_patched
+                          ro code  0x10043228    0x8bc  ll_routines_master.o [5]
+  i.isr_postproc          ro code  0x10043ae4    0x14c  isr_postproc.o [5]
+  i.cancel_master         ro code  0x10043c30    0x100  rom_ll_isr_routines.o [5]
+  .text                   ro code  0x10043d30     0xe0  I32DivModFast.o [7]
+  i.cancel_slave          ro code  0x10043e10     0x98  isr_routines.o [5]
+  i.Hal_Get_Random_Number
+                          ro code  0x10043ea8     0x28  hal.o [5]
+  i.LL_Sleep_Req          ro code  0x10043ed0     0x54  rom_ll_routines_support.o [5]
+  i.LL_Update_Advertising_Buffers
+                          ro code  0x10043f24     0x44  rom_ll_ll_routines.o [5]
+  i.LL_Update_Scanning_Initiating_Buffers
+                          ro code  0x10043f68     0x40  rom_ll_ll_routines.o [5]
+  .text                   ro code  0x10043fa8     0x16  uread4.o [7]
+  .text                   ro code  0x10043fbe      0xa  EventQueue.o [1]
+  i.PRIV_u8ResolvePrivateAddress
+                          ro code  0x10043fc8     0xf0  ll_privacy.o [5]
+  .text                   ro code  0x100440b8     0x28  osal.o [1]
+  i.timebase_start_connect
+                          ro code  0x100440e0     0x40  multi_master_time.o [5]
+  i.is_slave              ro code  0x10044120     0x34  multi_master_time.o [5]
+  i.swap_char             ro code  0x10044154      0xa  multi_master_time.o [5]
+  i.swap_short_int        ro code  0x1004415e      0xa  multi_master_time.o [5]
+  i.set_sca               ro code  0x10044168     0x20  rom_ll_timehandling.o [5]
+  i.WindowWiden1          ro code  0x10044188      0xa  rom_ll_timehandling.o [5]
+  i.time_offset1          ro code  0x10044192      0xe  rom_ll_timehandling.o [5]
+  i.WindowWiden2          ro code  0x100441a0     0x10  rom_ll_timehandling.o [5]
+  i.time_offset2          ro code  0x100441b0     0x10  rom_ll_timehandling.o [5]
+  i.microseconds_to_machine_time
+                          ro code  0x100441c0      0x8  routines_support.o [5]
+  i.system_time_trans_ext
+                          ro code  0x100441c8     0x2c  rom_ll_timehandling.o [5]
+  i.encrypt               ro code  0x100441f4     0x88  rom_ll_routines_support.o [5]
+  i.hci_le_enhanced_connection_complete_event_push
+                          ro code  0x1004427c     0x90  ll_routines_master.o [5]
+  i.hci_le_connection_complete_event_push
+                          ro code  0x1004430c     0x78  ll_routines_master.o [5]
+  i.hci_encryption_key_refresh_complete_event_push
+                          ro code  0x10044384     0x48  ll_routines_master.o [5]
+  i.hci_encryption_change_event_push
+                          ro code  0x100443cc     0x4c  ll_routines_master.o [5]
+  i.Acl_Tx_Cmpl_Pkt_Handler
+                          ro code  0x10044418     0x1e  acl.o [5]
+  .text                   ro code  0x10044436      0xa  Ticker.o [1]
+  i.aci_event_fifo_push_header
+                          ro code  0x10044440     0xc8  aci_events.o [5]
+  i.aci_event_fifo_push   ro code  0x10044508     0x28  aci_events.o [5]
+  i.hci_le_connection_update_complete_event_push
+                          ro code  0x10044530     0x58  ll_routines_master.o [5]
+  i.hci_le_direct_advertising_report_event_push
+                          ro code  0x10044588     0x74  ll_routines_master.o [5]
+  i.hci_le_advertising_report_event_push
+                          ro code  0x100445fc     0x80  ll_routines_master.o [5]
+  i.Reclassify_All_Channels
+                          ro code  0x1004467c     0xc0  ll_routines_master.o [5]
+  i.Acl_Rcv_Pkt_Handler   ro code  0x1004473c     0x1e  acl.o [5]
+  i.Hal_Get_Random_Number32
+                          ro code  0x1004475a     0x12  hal.o [5]
+  .text                   ro code  0x1004476c      0x2  IntDivZer.o [7]
+  .text                   ro code  0x1004476e      0x2  EventQueue.o [1]
+  i.PRIVWHIT_u8SearchAddrInList
+                          ro code  0x10044770     0xa0  ll_privacy.o [5]
+  i.LL_Encrypt_Plain_Data
+                          ro code  0x10044810     0x54  ll_routines_support.o [5]
+  i.PRIVWHIT_u8AddAddrInList
+                          ro code  0x10044864    0x1d8  ll_privacy.o [5]
+  i.PRIVWHIT_u8RemoveAddrInList
+                          ro code  0x10044a3c     0xc8  ll_privacy.o [5]
+  .text                   ro code  0x10044b04     0x5c  ABImemcpy.o [7]
+  .text                   ro code  0x10044b60     0x58  ABImemset.o [7]
+  .text                   ro code  0x10044bb8     0x28  memcmp.o [7]
+  i.fifoBuf_getFreeHeader
+                          ro code  0x10044be0     0x6a  aci_events.o [5]
+  i.AES128ECB_Wrapper     ro code  0x10044c4a     0x7e  aes128cmac.o [5]
+  i.AES_keyschedule_enc   ro code  0x10044cc8     0x36  crypto.o [5]
+  .text                   ro code  0x10044cfe      0x2  GenericGattClient.o [1]
+  i.AES_general_SW_enc    ro code  0x10044d00    0x268  crypto.o [5]
+  i.AES_keyschedule_enc_LL
+                          ro code  0x10044f68    0x15c  crypto.o [5]
+  .text                   ro code  0x100450c4   0x16b8  dlmalloc.o [3]
+  .text                   ro code  0x1004677c      0xa  abort.o [3]
+  .text                   ro code  0x10046786      0x2  main.o [1]
+  .text                   ro code  0x10046788     0x2c  xgetmemchunk.o [3]
+  .text                   ro code  0x100467b4     0x3c  xsyslock.o [3]
+  .text                   ro code  0x100467f0      0xc  XXexit.o [7]
+  .text                   ro code  0x100467fc    0x164  xsyslock_mtx.o [3]
+  .text                   ro code  0x10046960    0x23a  mbed_boot.o [1]
+  .text                   ro code  0x10046b9a      0x2  main.o [1]
+  .text                   ro code  0x10046b9c    0x894  rtx_thread.o [1]
+  .text                   ro code  0x10047430     0x28  mbed_error.o [1]
+  .text                   ro code  0x10047458    0x348  rtx_kernel.o [1]
+  .text                   ro code  0x100477a0    0x420  rtx_mutex.o [1]
+  .text                   ro code  0x10047bc0     0x1c  dynamic_init.o [7]
+  .text                   ro code  0x10047bdc    0x3f4  main.o [1]
+  .text                   ro code  0x10047fd0      0x4  low_level_init.o [3]
+  .text                   ro code  0x10047fd4     0x28  data_init.o [7]
+  .text                   ro code  0x10047ffc      0x2  mbed_overrides.o [1]
+  .text                   ro code  0x10047ffe      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048000      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048002      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048004      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048006      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048008      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004800a      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004800c      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004800e      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048010      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048012      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048014      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048016      0x2  SPI.o [1]
+  .text                   ro code  0x10048018    0x36c  mbed_rtx_handlers.o [1]
+  .text                   ro code  0x10048384     0xcc  rtx_mempool.o [1]
+  .text                   ro code  0x10048450     0x70  rtx_memory.o [1]
+  .text                   ro code  0x100484c0     0x4e  rtx_memory.o [1]
+  .text                   ro code  0x1004850e      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048510      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048512      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048514      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048516      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048518      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004851a      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x1004851c     0x64  mbed_board.o [1]
+  .text                   ro code  0x10048580    0x45c  mbed_retarget.o [1]
+  .text                   ro code  0x100489dc     0x3e  rtx_memory.o [1]
+  .text                   ro code  0x10048a1a      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048a1c      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048a1e      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x10048a20     0x4c  os_systick.o [1]
+  .text                   ro code  0x10048a6c      0x6  os_systick.o [1]
+  .text                   ro code  0x10048a72      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x10048a74     0x30  os_systick.o [1]
+  .text                   ro code  0x10048aa4      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048aa6      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048aa8      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048aaa      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048aac      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048aae      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048ab0      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048ab2      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048ab4      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048ab6      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048ab8      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048aba      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048abc      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10048abe      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x10048ac0     0xa4  cppinit.o [3]
+  .text                   ro code  0x10048b64     0x6a  mbed_gpio.o [1]
+  .text                   ro code  0x10048bce      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x10048bd0     0x5e  Serial.o [1]
+  .text                   ro code  0x10048c2e     0x4e  cxxabi.o [4]
+  .text                   ro code  0x10048c7c     0xd0  SPI.o [1]
+  .text                   ro code  0x10048d4c    0x290  IMU.o [1]
+  .text                   ro code  0x10048fdc     0x4e  EventQueue.o [1]
+  .text                   ro code  0x1004902a      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x1004902c    0x1a0  BLE.o [1]
+  .text                   ro code  0x100491cc     0x1a  main.o [1]
+  .text                   ro code  0x100491e6      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x100491e8     0x8c  gpio_api.o [1]
+  .text                   ro code  0x10049274     0x24  printf.o [3]
+  .text                   ro code  0x10049298     0x20  main.o [1]
+  .text                   ro code  0x100492b8     0x20  main.o [1]
+  .text                   ro code  0x100492d8     0x98  main.o [1]
+  .text                   ro code  0x10049370     0x30  main.o [1]
+  .text                   ro code  0x100493a0     0x4c  main.o [1]
+  .text                   ro code  0x100493ec     0x30  main.o [1]
+  .text                   ro code  0x1004941c    0x42a  equeue.o [1]
+  .text                   ro code  0x10049846     0x18  Ticker.o [1]
+  .text                   ro code  0x1004985e      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x10049860     0x20  main.o [1]
+  .text                   ro code  0x10049880     0x20  main.o [1]
+  .text                   ro code  0x100498a0     0x24  mbed_rtx_idle.o [1]
+  .text                   ro code  0x100498c4     0x1c  Thread.o [1]
+  .text                   ro code  0x100498e0      0x2  rtx_evr.o [1]
+  .text                   ro code  0x100498e2      0x2  rtx_evr.o [1]
+  .text                   ro code  0x100498e4      0x2  rtx_evr.o [1]
+  .text                   ro code  0x100498e6      0x2  rtx_evr.o [1]
+  .text                   ro code  0x100498e8      0x2  rtx_evr.o [1]
+  .text                   ro code  0x100498ea      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x100498ec     0x74  mbed_critical.o [1]
+  .text                   ro code  0x10049960     0x3c  vsnprint.o [3]
+  .text                   ro code  0x1004999c    0x114  serial_api.o [1]
+  .text                   ro code  0x10049ab0     0x40  mbed_critical.o [1]
+  .text                   ro code  0x10049af0     0x50  SPI.o [1]
+  .text                   ro code  0x10049b40     0xd8  Mutex.o [1]
+  .text                   ro code  0x10049c18     0x22  strcmp.o [7]
+  .text                   ro code  0x10049c3a      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x10049c3c     0x10  errno.o [3]
+  .text                   ro code  0x10049c4c     0xa4  FilePath.o [1]
+  .text                   ro code  0x10049cf0     0xf4  mbed_board.o [1]
+  .text                   ro code  0x10049de4     0xb0  setvbuf.o [3]
+  .text                   ro code  0x10049e94     0x2a  fopen.o [3]
+  .text                   ro code  0x10049ebe      0x2  rtx_evr.o [1]
+  .text                   ro code  0x10049ec0    0x1d4  SerialBase.o [1]
+  .text                   ro code  0x1004a094    0x124  Stream.o [1]
+  .text                   ro code  0x1004a1b8    0x1f0  spi_api.o [1]
+  .text                   ro code  0x1004a3a8     0x32  I32ToFlt.o [6]
+  .text                   ro code  0x1004a3da     0xb0  FltMul.o [6]
+  .text                   ro code  0x1004a48a      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x1004a48c     0x32  FltToDbl.o [6]
+  .text                   ro code  0x1004a4be    0x116  FltAddSub.o [6]
+  .text                   ro code  0x1004a5d4     0x30  EventQueue.o [1]
+  .text                   ro code  0x1004a604     0x16  BLE.o [1]
+  .text                   ro code  0x1004a61a      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x1004a61c     0x10  BLE.o [1]
+  .text                   ro code  0x1004a62c     0x2a  cxxabiguard.o [4]
+  .text                   ro code  0x1004a656      0x2  startup_bluenrg1.o [1]
+  .text                   ro code  0x1004a658     0xe6  BlueNRG1_gpio.o [1]
+  .text                   ro code  0x1004a73e      0x2  Stream.o [1]
+  .text                   ro code  0x1004a740     0x18  BlueNRG1_sysCtrl.o [1]
+  .text                   ro code  0x1004a758      0xc  pin_device.o [1]
+  .text                   ro code  0x1004a764   0x10de  xprintflarge.o [3]
+  .text                   ro code  0x1004b842     0x1a  main.o [1]
+  .text                   ro code  0x1004b85c     0x20  main.o [1]
+  .text                   ro code  0x1004b87c     0x20  main.o [1]
+  .text                   ro code  0x1004b89c     0xc6  main.o [1]
+  .text                   ro code  0x1004b962     0x50  main.o [1]
+  .text                   ro code  0x1004b9b2      0x8  main.o [1]
+  .text                   ro code  0x1004b9ba      0x2  Stream.o [1]
+  .text                   ro code  0x1004b9bc    0x168  equeue_mbed.o [1]
+  .text                   ro code  0x1004bb24      0x4  mbed_sleep_manager.o [1]
+  .text                   ro code  0x1004bb28     0x4c  rtx_delay.o [1]
+  .text                   ro code  0x1004bb74     0x54  mbed_assert.o [1]
+  .text                   ro code  0x1004bbc8    0x1e0  BlueNRG1_uart.o [1]
+  .text                   ro code  0x1004bda8     0x78  misc.o [1]
+  .text                   ro code  0x1004be20      0x2  xtls.o [3]
+  .text                   ro code  0x1004be22      0x2  Ticker.o [1]
+  .text                   ro code  0x1004be24    0x104  FileBase.o [1]
+  .text                   ro code  0x1004bf28     0x52  mbed_wait_api_rtos.o [1]
+  i.hci_data_buffer_overflow_event_cb
+                          ro code  0x1004bf7a      0x2  aci_events.o [5]
+  .text                   ro code  0x1004bf7c     0xe8  xfofind.o [3]
+  .text                   ro code  0x1004c064    0x12c  xfoprep.o [3]
+  .text                   ro code  0x1004c190     0x30  Ticker.o [1]
+  .text                   ro code  0x1004c1c0     0x12  SerialBase.o [1]
+  .text                   ro code  0x1004c1d2     0x1e  SerialBase.o [1]
+  .text                   ro code  0x1004c1f0      0x8  FileHandle.o [1]
+  .text                   ro code  0x1004c1f8     0x7e  fclose.o [3]
+  .text                   ro code  0x1004c278     0xb4  fflush.o [3]
+  .text                   ro code  0x1004c32c     0x2c  vfprintf.o [3]
+  .text                   ro code  0x1004c358    0x128  BlueNRG1_spi.o [1]
+  .text                   ro code  0x1004c480     0x1c  xmbtowc.o [3]
+  .text                   ro code  0x1004c49c     0x14  strchr.o [7]
+  .text                   ro code  0x1004c4b0     0x10  strlen.o [7]
+  .text                   ro code  0x1004c4c0     0x18  memchr.o [7]
+  .text                   ro code  0x1004c4d8      0xa  xmbcurmax.o [3]
+  .text                   ro code  0x1004c4e2     0x18  xwctomb.o [3]
+  .text                   ro code  0x1004c4fa     0x6a  I64DivMod.o [7]
+  .text                   ro code  0x1004c564    0x184  DblMul.o [6]
+  .text                   ro code  0x1004c6e8     0x32  DblCmpLe.o [6]
+  .text                   ro code  0x1004c71a     0xc2  DblDiv.o [6]
+  .text                   ro code  0x1004c7dc     0x2e  DblToI32.o [6]
+  .text                   ro code  0x1004c80c     0x20  I32ToDbl.o [6]
+  .text                   ro code  0x1004c82c    0x1a8  DblAddSub.o [6]
+  .text                   ro code  0x1004c9d4     0x68  localeconv.o [3]
+  .text                   ro code  0x1004ca3c     0x20  div.o [3]
+  .text                   ro code  0x1004ca5c     0xdc  Timer.o [1]
+  .text                   ro code  0x1004cb38     0x56  TimerEvent.o [1]
+  .text                   ro code  0x1004cb8e     0x62  Ticker.o [1]
+  .text                   ro code  0x1004cbf0    0x458  rtx_evflags.o [1]
+  .text                   ro code  0x1004d048      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004d04a     0x2c  strncmp.o [3]
+  .text                   ro code  0x1004d078      0xc  mbed_us_ticker_api.o [1]
+  .text                   ro code  0x1004d084    0x3a0  mbed_ticker_api.o [1]
+  .text                   ro code  0x1004d424     0x60  xfopen.o [3]
+  .text                   ro code  0x1004d484     0x14  setlocale.o [3]
+  .text                   ro code  0x1004d498     0x50  xencoding_sb.o [3]
+  .text                   ro code  0x1004d4e8      0x2  I64DivZer.o [7]
+  .text                   ro code  0x1004d4ea     0x14  memset.o [3]
+  .text                   ro code  0x1004d4fe      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004d500      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004d502      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004d504      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004d506      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004d508      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004d50a      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004d50c      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004d510    0x160  rtx_system.o [1]
+  .text                   ro code  0x1004d670      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004d672      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004d674     0x22  I64Shl.o [7]
+  .text                   ro code  0x1004d698     0x32  I64Mul.o [7]
+  .text                   ro code  0x1004d6cc      0xc  os_systick.o [1]
+  .text                   ro code  0x1004d6d8    0x6b0  rtx_msgqueue.o [1]
+  .text                   ro code  0x1004dd88      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004dd8a      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004dd8c      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004dd8e      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004dd90      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004dd92      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004dd94      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004dd96      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004dd98      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004dd9a      0x2  rtx_evr.o [1]
+  .text                   ro code  0x1004dd9c      0x2  rtx_evr.o [1]
+  i.Read_By_Type_Resp     ro code  0x1004dda0    0x344  att.o [5]
+  i.L2CAP_Get_PDU_Len     ro code  0x1004e0e4      0xe  l2cap.o [5]
+  i.PM_Copy_Pckt_Data     ro code  0x1004e0f2     0x14  pm.o [5]
+  i.STORE_LE_16           ro code  0x1004e106      0x8  utils.o [5]
+  i.Accu_UuidTypes_Requiring_Auth
+                          ro code  0x1004e10e     0xe8  rom_att.o [5]
+  i.GATT_Set_Flag         ro code  0x1004e1f6      0x8  rom_att.o [5]
+  i.aci_gatt_read_multi_permit_req_event_push
+                          ro code  0x1004e1fe     0x50  att.o [5]
+  i.Send_Error_Resp       ro code  0x1004e24e     0x30  rom_att.o [5]
+  i.PM_Extend_Pckt_Pdu_Size
+                          ro code  0x1004e27e     0x36  pm.o [5]
+  i.Gatt_Find_Srv_Owner_Of_Handle
+                          ro code  0x1004e2b4     0x44  gatt_server.o [5]
+  i.PM_Write_Pckt_Data    ro code  0x1004e2f8     0x14  pm.o [5]
+  i.PM_Set_Att_Pdu_Length
+                          ro code  0x1004e30c     0x50  pm.o [5]
+  i.PM_Set_ConnHandle     ro code  0x1004e35c      0xc  pm.o [5]
+  i.ValidLinkPermRequest  ro code  0x1004e368     0x50  att.o [5]
+  i.Find_Attr_Index       ro code  0x1004e3b8     0x50  gatt_server.o [5]
+  i.Acl_Copy_Data         ro code  0x1004e408     0x82  pm.o [5]
+  i.PM_Get_Fragments_Count
+                          ro code  0x1004e48a     0x12  pm.o [5]
+  i.PM_Get_Pckt           ro code  0x1004e49c     0x80  pm.o [5]
+  i.PM_Release_Pckt       ro code  0x1004e51c     0x5c  pm.o [5]
+  i.SM_Get_Remote_Device_Info
+                          ro code  0x1004e578     0x48  sm_common.o [5]
+  i.Check_Permission      ro code  0x1004e5c0     0x9c  rom_att.o [5]
+  i.Acl_Get_Pack_Off      ro code  0x1004e65c     0x18  pm.o [5]
+  i.acl_list_is_empty     ro code  0x1004e674     0x10  acl_list.o [5]
+  i.acl_list_get_pckt_count
+                          ro code  0x1004e684      0x4  acl_list.o [5]
+  i.acl_list_remove_head  ro code  0x1004e688     0x20  acl_list.o [5]
+  i.acl_list_insert_tail  ro code  0x1004e6a8     0x20  acl_list.o [5]
+  i.SM_Get_Link_Status    ro code  0x1004e6c8     0x2e  sm_common.o [5]
+  i.SM_Check_Encryption_KeySize
+                          ro code  0x1004e6f6     0x20  sm_common.o [5]
+  i.List_Circular_Remove_Head
+                          ro code  0x1004e716     0x1a  rom_list.o [5]
+  i.List_Circular_Insert_Tail
+                          ro code  0x1004e730      0xe  rom_list.o [5]
+  i.Gatt_Update_Charac_Value_Ext
+                          ro code  0x1004e740    0x308  gatt_server.o [5]
+  i.Search_Service_Handle
+                          ro code  0x1004ea48     0x28  gatt_server.o [5]
+  i.Search_Handle         ro code  0x1004ea70     0x1e  rom_gatt_server.o [5]
+  i.GATT_Server_Set_Flag  ro code  0x1004ea90     0x14  gatt_server.o [5]
+  i.Build_Notif_Or_Ind    ro code  0x1004eaa4     0x46  gatt_server.o [5]
+  i.Send_Notif_Or_Ind     ro code  0x1004eaec     0x7c  gatt_server.o [5]
+  i.Select_Next_Notification_Client
+                          ro code  0x1004eb68     0x54  gatt_server.o [5]
+  i.Gatt_Server_L2C_Handler
+                          ro code  0x1004ebbc    0x228  gatt_server.o [5]
+  i.Find_Gatt_Client      ro code  0x1004ede4     0x40  gatt_client.o [5]
+  i.GATT_Clear_Flag       ro code  0x1004ee24      0x8  rom_att.o [5]
+  i.Stop_Gatt_Timer       ro code  0x1004ee2c     0x1c  rom_gatt_server.o [5]
+  i.Start_Gatt_Timer      ro code  0x1004ee48     0x24  rom_gatt_server.o [5]
+  i.PM_Get_Available_Fragments
+                          ro code  0x1004ee6c     0x38  pm.o [5]
+  i.Gatt_Find_Timed_Out_Connection_Index
+                          ro code  0x1004eea4     0x38  gatt_server.o [5]
+  i.Timer_StopOneShot     ro code  0x1004eedc     0x54  host_timer.o [5]
+  i.Timer_StartOneShot    ro code  0x1004ef30     0x22  host_timer.o [5]
+  i.List_Circular_Remove_Node
+                          ro code  0x1004ef52     0x20  rom_list.o [5]
+  i.Timer_sysTime32_convMachineTime
+                          ro code  0x1004ef74     0x20  host_timer.o [5]
+  i.HAL_VTimerAcc_sysT32_ms
+                          ro code  0x1004ef94     0x24  host_timer.o [5]
+  i.Timer_StartOneShot_sysTime32
+                          ro code  0x1004efb8     0x70  host_timer.o [5]
+  i.List_Circular_Node_Present
+                          ro code  0x1004f028     0x16  rom_list.o [5]
+  .text                   ro code  0x1004f040    0x1d8  system_bluenrg1.o [1]
+  i.Write_Client_Data     ro code  0x1004f218    0x1b8  sdb.o [5]
+  i.SDB_Get_GattDb_Start_Addr
+                          ro code  0x1004f3d0     0x18  sdb.o [5]
+  i.Read_RecordValidity   ro code  0x1004f3e8     0x10  rom_sdb.o [5]
+  i.STORE_LE_32           ro code  0x1004f3f8     0x10  utils.o [5]
+  i.InvaliDate_Record     ro code  0x1004f408     0x20  rom_sdb.o [5]
+  i.SDB_Get_GattDb_End_Addr
+                          ro code  0x1004f428     0x1c  sdb.o [5]
+  i.Flash_Write_Flagged   ro code  0x1004f444     0x3c  nvm.o [5]
+  .text                   ro code  0x1004f480     0x3c  BlueNRG1_flash.o [1]
+  i.SDB_Add_Record        ro code  0x1004f4bc    0x1ac  sdb.o [5]
+  i.Read_SDBRecord        ro code  0x1004f668     0x2c  rom_sdb.o [5]
+  i.Get_SecRec_Len_In_Words
+                          ro code  0x1004f694      0xc  rom_sdb.o [5]
+  i.SDB_Delete            ro code  0x1004f6a0    0x170  sdb.o [5]
+  i.Write_SDBRecord       ro code  0x1004f810     0x6c  sdb.o [5]
+  i.Get_SecRecord_Size    ro code  0x1004f87c      0x4  sdb.o [5]
+  i.SDB_Get_SecurityDb_Start_Addr
+                          ro code  0x1004f880     0x14  sdb.o [5]
+  i.Erase_Sector          ro code  0x1004f894      0xe  sdb.o [5]
+  i.Find_Client_Data      ro code  0x1004f8a4     0xcc  rom_sdb.o [5]
+  i.Delay_With_NOP_Cycles
+                          ro code  0x1004f970      0xe  utils.o [5]
+  i.LE_TO_NRG_32          ro code  0x1004f97e     0x14  utils.o [5]
+  i.Get_Max_SecDb_Size    ro code  0x1004f992      0x4  sdb.o [5]
+  i.Read_Multi_Resp       ro code  0x1004f998    0x1a4  att.o [5]
+  i.Accu_Handles_Requiring_Auth
+                          ro code  0x1004fb3c     0x6e  rom_att.o [5]
+  i.L2C_Signal_Channel_Handler
+                          ro code  0x1004fbac    0x19c  l2cap.o [5]
+  i.Find_L2cap_conn_index
+                          ro code  0x1004fd48     0x38  l2cap.o [5]
+  i.aci_l2cap_connection_update_req_event_push
+                          ro code  0x1004fd80     0x88  l2cap.o [5]
+  i.L2C_Build_Command_Reject_Pdu
+                          ro code  0x1004fe08     0x7a  l2cap.o [5]
+  i.Find_L2cap_signalling_connection
+                          ro code  0x1004fe84     0x38  l2cap.o [5]
+  i.L2C_Send_Data         ro code  0x1004febc     0x2c  l2cap.o [5]
+  i.Acl_Transmit_Data     ro code  0x1004fee8     0x48  acl.o [5]
+  i.Acl_Transmit_Packet   ro code  0x1004ff30     0x16  acl.o [5]
+  i.LL_Send_ACL_Data      ro code  0x1004ff48     0x54  rom_ll_ll_routines.o [5]
+  i.slave_advance         ro code  0x1004ff9c     0xfc  routines_support.o [5]
+  i.get_connection_no     ro code  0x10050098     0x84  multi_master_time.o [5]
+  .rodata                 const    0x1005011c    0x170  mbed_rtx_handlers.o [1]
+  i.Read_Blob_Resp        ro code  0x1005028c    0x160  att.o [5]
+  i.aci_gatt_read_permit_req_event_push
+                          ro code  0x100503ec     0x38  att.o [5]
+  i.smp_Add_To_Database   ro code  0x10050424    0x14c  sm_common.o [5]
+  i.Read_Resp             ro code  0x10050570    0x146  att.o [5]
+  i.SM_L2CAP_Handler_ISR  ro code  0x100506b8    0x12c  sm_common.o [5]
+  i.Is_Address_Initialized
+                          ro code  0x100507e4     0x16  rom_ll_ll_routines.o [5]
+  i.LL_Get_Address        ro code  0x100507fc     0x30  rom_ll_ll_routines.o [5]
+  i.SM_Connection_Complete_Handler
+                          ro code  0x1005082c     0x7c  sm_common.o [5]
+  i.smp_Find_Remote_Device_Index
+                          ro code  0x100508a8     0x40  sm_common.o [5]
+  .constdata              const    0x100508e8    0x128  crypto.o [5]
+  .constdata              const    0x10050a10    0x110  aci_events.o [5]
+  i.Gatt_Appl_Auth_For_Read
+                          ro code  0x10050b20     0xfc  gatt_server.o [5]
+  i.acl_list_remove       ro code  0x10050c1c     0x20  acl_list.o [5]
+  .text                   ro code  0x10050c3c     0xfa  BlueNRG1_mft.o [1]
+  .text                   ro code  0x10050d38     0xf0  rtx_timer.o [1]
+  .text                   ro code  0x10050e28      0x2  rtx_evr.o [1]
+  i.LL_Start_Encryption   ro code  0x10050e2c     0xec  rom_ll_ll_routines_master.o [5]
+  i.hci_acl_data_ind_event_int_cb
+                          ro code  0x10050f18     0xe4  acl.o [5]
+  i.hci_rx_acl_data       ro code  0x10050ffc     0x5a  hci.o [5]
+  i.Search_In_Stat        ro code  0x10051056     0x20  acl.o [5]
+  i.Check_Stat            ro code  0x10051076     0x24  acl.o [5]
+  i.Acl_Clone_Fragment    ro code  0x1005109a     0x20  pm.o [5]
+  i.PM_Append_Fragment    ro code  0x100510ba     0x10  pm.o [5]
+  i.L2C_Rcv_Event_Handler
+                          ro code  0x100510ca     0x3e  l2cap.o [5]
+  i.LL_Rcv_ACL_Data       ro code  0x10051108     0x30  rom_ll_ll_routines.o [5]
+  i.Acl_Get_Last          ro code  0x10051138      0xc  pm.o [5]
+  i.SM_L2CAP_Handler      ro code  0x10051144     0xe0  sm_common.o [5]
+  i.smp_Keys_Distribution_Complete
+                          ro code  0x10051224     0x46  sm_common.o [5]
+  i.smp_Pairing_Completed
+                          ro code  0x1005126c     0xa8  sm_common.o [5]
+  i.smp_OOB_Clear_Remote_Data_Entry_by_Index
+                          ro code  0x10051314     0x20  sm_common.o [5]
+  i.smp____SC_submit_ECC_PK_generation_request
+                          ro code  0x10051334     0x1c  smp_scv42_isap.o [5]
+  i.aci_gap_pairing_complete_event_push
+                          ro code  0x10051350     0x4c  sm_common.o [5]
+  i.aci_gap_authorization_req_event_push
+                          ro code  0x1005139c     0x44  sm_common.o [5]
+  .text                   ro code  0x100513e0     0xe0  xfspos.o [3]
+  .text                   ro code  0x100514c0      0xc  xfgpos.o [3]
+  .text                   ro code  0x100514cc     0xc4  us_ticker_api.o [1]
+  i.SM_L2CAP_Encryption_changed_Handler_ISR
+                          ro code  0x10051590     0xc4  sm_common.o [5]
+  .text                   ro code  0x10051654     0xc0  xfwprep.o [3]
+  .text                   ro code  0x10051714     0x22  fseek.o [3]
+  .text                   ro code  0x10051738     0x9c  Blue1.o [1]
+  .text                   ro code  0x100517d4     0x54  gatt_db.o [1]
+  i.aci_gatt_update_char_value
+                          ro code  0x10051828     0x14  bluenrg_gatt_aci.o [5]
+  i.aci_gatt_allow_read   ro code  0x1005183c      0xc  bluenrg_gatt_aci.o [5]
+  i.Gatt_Update_Charac_Value
+                          ro code  0x10051848     0x64  gatt_server.o [5]
+  .text                   ro code  0x100518ac     0x98  irq_cm0.o [1]
+  i.hci_acl_data_tx_cmpl_event_int_cb
+                          ro code  0x10051944     0x98  acl.o [5]
+  i.hci_tx_acl_data_done  ro code  0x100519dc     0x34  hci.o [5]
+  .rodata                 const    0x10051a10     0x8c  Serial.o [1]
+  .rodata                 const    0x10051a9c     0x80  mbed_critical.o [1]
+  .rodata                 const    0x10051b1c     0x6c  Stream.o [1]
+  .rodata                 const    0x10051b88     0x68  rtx_lib.o [1]
+  .text                   ro code  0x10051bf0     0x68  xcloseall.o [3]
+  i._GAP_Parse_Advertising_Report
+                          ro code  0x10051c58     0x64  gap.o [5]
+  i.aci_gap_proc_complete_event_push
+                          ro code  0x10051cbc     0x64  gap.o [5]
+  .constdata              const    0x10051d20     0x60  smp_scv42_isap.o [5]
+  .rodata                 const    0x10051d80     0x60  rtx_lib.o [1]
+  i.GAP_Connection_Complete_Handler
+                          ro code  0x10051de0     0x60  gap.o [5]
+  .rodata                 const    0x10051e40     0x5c  Stream.o [1]
+  i.GAP_LL_Event_Handler_ISR
+                          ro code  0x10051e9c     0x5c  gap.o [5]
+  i.GAP_Parse_Advertising_Report
+                          ro code  0x10051ef8     0x10  gap.o [5]
+  i.L2C_Rcv_Event_Handler_ISR
+                          ro code  0x10051f08     0x5a  l2cap.o [5]
+  i.__ARM_common_switch8  ro code  0x10051f62     0x1a  rom_ll_routines_support.o [5]
+  i.L2C_Connection_Complete_Handler
+                          ro code  0x10051f7c     0x24  l2cap.o [5]
+  i.Gatt_Server_L2C_Handler_ISR
+                          ro code  0x10051fa0     0x48  gatt_server.o [5]
+  i.L2C_Signal_Channel_Handler_ISR
+                          ro code  0x10051fe8     0x24  l2cap.o [5]
+  i.Acl_Disconnected_Peer
+                          ro code  0x1005200c     0x54  acl.o [5]
+  i.GATT_Connection_Complete_Handler
+                          ro code  0x10052060     0x48  gatt_server.o [5]
+  i.L2C_Connection_Complete_Signal_Handler
+                          ro code  0x100520a8     0x24  l2cap.o [5]
+  i.L2CAP_Reset_To_Closed_State
+                          ro code  0x100520cc     0x38  l2cap.o [5]
+  .text                   ro code  0x10052104     0x56  fputc.o [3]
+  i.hci_le_enhanced_connection_complete_event_cb
+                          ro code  0x1005215c     0x48  aci_events.o [5]
+  i.hci_le_enhanced_connection_complete_event
+                          ro code  0x100521a4      0x2  aci_events.o [5]
+  i.smp____SC_hci_le_read_local_p256_public_key_complete_evt_hndl
+                          ro code  0x100521a8     0x44  smp_scv42_isap.o [5]
+  i.smp____SC_is_Debug_Key_Usage_Forced
+                          ro code  0x100521ec     0x14  smp_scv42_isap.o [5]
+  .rodata                 const    0x10052200     0x40  FATFileSystem.o [1]
+  i.hci_le_connection_complete_event_cb
+                          ro code  0x10052240     0x40  aci_events.o [5]
+  .rodata                 const    0x10052280     0x3c  ATCmdParser.o [1]
+  .text                   ro code  0x100522bc     0x3c  zero_init3.o [7]
+  .text                   ro code  0x100522f8     0x3c  packbits_init_single.o [7]
+  .text                   ro code  0x10052334     0x34  Serial.o [1]
+  .rodata                 const    0x10052368     0x30  BLE.o [1]
+  i.aci_l2cap_connection_update_req_event_cb
+                          ro code  0x10052398     0x30  aci_events.o [5]
+  i.aci_l2cap_connection_update_req_event
+                          ro code  0x100523c8      0x2  aci_events.o [5]
+  i.hci_le_connection_update_complete_event_cb
+                          ro code  0x100523cc     0x2c  aci_events.o [5]
+  i.hci_le_connection_update_complete_event
+                          ro code  0x100523f8      0x2  aci_events.o [5]
+  .text                   ro code  0x100523fc     0x28  main.o [1]
+  i.aci_att_prepare_write_resp_event_cb
+                          ro code  0x10052424     0x28  aci_events.o [5]
+  i.aci_att_prepare_write_resp_event
+                          ro code  0x1005244c      0x2  aci_events.o [5]
+  i.aci_gatt_attribute_modified_event_cb
+                          ro code  0x10052450     0x28  aci_events.o [5]
+  i.hci_le_read_remote_used_features_complete_event_cb
+                          ro code  0x10052478     0x28  aci_events.o [5]
+  i.hci_le_read_remote_used_features_complete_event
+                          ro code  0x100524a0      0x2  aci_events.o [5]
+  i.smp____SC_hci_le_generate_dhkey_complete_evt_hndl
+                          ro code  0x100524a4     0x28  smp_scv42_isap.o [5]
+  i.hci_disconnection_complete_event_int_cb
+                          ro code  0x100524cc     0x26  aci_events.o [5]
+  i.hci_le_connection_complete_event_int_cb
+                          ro code  0x100524f2     0x26  aci_events.o [5]
+  i.hci_le_enhanced_connection_complete_event_int_cb
+                          ro code  0x10052518     0x26  aci_events.o [5]
+  i.aci_att_find_by_type_value_resp_event_cb
+                          ro code  0x10052540     0x24  aci_events.o [5]
+  i.aci_att_find_by_type_value_resp_event
+                          ro code  0x10052564      0x2  aci_events.o [5]
+  i.aci_att_find_info_resp_event_cb
+                          ro code  0x10052568     0x24  aci_events.o [5]
+  i.aci_att_find_info_resp_event
+                          ro code  0x1005258c      0x2  aci_events.o [5]
+  i.aci_att_read_blob_resp_event_cb
+                          ro code  0x10052590     0x24  aci_events.o [5]
+  i.aci_att_read_blob_resp_event
+                          ro code  0x100525b4      0x2  aci_events.o [5]
+  i.aci_att_read_by_group_type_resp_event_cb
+                          ro code  0x100525b8     0x24  aci_events.o [5]
+  i.aci_att_read_by_group_type_resp_event
+                          ro code  0x100525dc      0x2  aci_events.o [5]
+  i.aci_att_read_by_type_resp_event_cb
+                          ro code  0x100525e0     0x24  aci_events.o [5]
+  i.aci_att_read_by_type_resp_event
+                          ro code  0x10052604      0x2  aci_events.o [5]
+  i.aci_att_read_multiple_resp_event_cb
+                          ro code  0x10052608     0x24  aci_events.o [5]
+  i.aci_att_read_multiple_resp_event
+                          ro code  0x1005262c      0x2  aci_events.o [5]
+  i.aci_att_read_resp_event_cb
+                          ro code  0x10052630     0x24  aci_events.o [5]
+  i.aci_att_read_resp_event
+                          ro code  0x10052654      0x2  aci_events.o [5]
+  i.aci_att_write_resp_event_cb
+                          ro code  0x10052658     0x24  aci_events.o [5]
+  i.aci_att_write_resp_event
+                          ro code  0x1005267c      0x2  aci_events.o [5]
+  i.aci_gap_pairing_complete_event_cb
+                          ro code  0x10052680     0x24  aci_events.o [5]
+  i.aci_gap_pairing_complete_event
+                          ro code  0x100526a4      0x2  aci_events.o [5]
+  i.aci_gap_proc_complete_event_cb
+                          ro code  0x100526a8     0x24  aci_events.o [5]
+  i.aci_gap_proc_complete_event
+                          ro code  0x100526cc      0x2  aci_events.o [5]
+  i.aci_gatt_disc_read_char_by_uuid_resp_event_cb
+                          ro code  0x100526d0     0x24  aci_events.o [5]
+  i.aci_gatt_disc_read_char_by_uuid_resp_event
+                          ro code  0x100526f4      0x2  aci_events.o [5]
+  i.aci_gatt_error_resp_event_cb
+                          ro code  0x100526f8     0x24  aci_events.o [5]
+  i.aci_gatt_error_resp_event
+                          ro code  0x1005271c      0x2  aci_events.o [5]
+  i.aci_gatt_indication_event_cb
+                          ro code  0x10052720     0x24  aci_events.o [5]
+  i.aci_gatt_indication_event
+                          ro code  0x10052744      0x2  aci_events.o [5]
+  i.aci_gatt_notification_event_cb
+                          ro code  0x10052748     0x24  aci_events.o [5]
+  i.aci_gatt_notification_event
+                          ro code  0x1005276c      0x2  aci_events.o [5]
+  i.aci_hal_scan_req_report_event_cb
+                          ro code  0x10052770     0x24  aci_events.o [5]
+  i.aci_hal_scan_req_report_event
+                          ro code  0x10052794      0x2  aci_events.o [5]
+  i.hci_le_generate_dhkey_complete_event_cb
+                          ro code  0x10052798     0x24  aci_events.o [5]
+  i.hci_le_generate_dhkey_complete_event
+                          ro code  0x100527bc      0x2  aci_events.o [5]
+  i.hci_le_long_term_key_request_event_cb
+                          ro code  0x100527c0     0x24  aci_events.o [5]
+  i.hci_le_long_term_key_request_event
+                          ro code  0x100527e4      0x2  aci_events.o [5]
+  i.hci_le_read_local_p256_public_key_complete_event_cb
+                          ro code  0x100527e8     0x24  aci_events.o [5]
+  i.hci_le_read_local_p256_public_key_complete_event
+                          ro code  0x1005280c      0x2  aci_events.o [5]
+  i.hci_read_remote_version_information_complete_event_cb
+                          ro code  0x10052810     0x24  aci_events.o [5]
+  i.hci_read_remote_version_information_complete_event
+                          ro code  0x10052834      0x2  aci_events.o [5]
+  .iar.init_table         const    0x10052838     0x58  - Linker created -
+  .constdata              const    0x10052890     0x20  rom_ll_timehandling.o [5]
+  .rodata                 const    0x100528b0     0x20  SPI.o [1]
+  i.aci_att_exchange_mtu_resp_event_cb
+                          ro code  0x100528d0     0x20  aci_events.o [5]
+  i.aci_att_exchange_mtu_resp_event
+                          ro code  0x100528f0      0x2  aci_events.o [5]
+  i.aci_gap_device_found_event_cb
+                          ro code  0x100528f4     0x20  aci_events.o [5]
+  i.aci_gap_device_found_event
+                          ro code  0x10052914      0x2  aci_events.o [5]
+  i.aci_gap_keypress_notification_event_cb
+                          ro code  0x10052918     0x20  aci_events.o [5]
+  i.aci_gap_keypress_notification_event
+                          ro code  0x10052938      0x2  aci_events.o [5]
+  i.aci_gap_numeric_comparison_value_event_cb
+                          ro code  0x1005293c     0x20  aci_events.o [5]
+  i.aci_gap_numeric_comparison_value_event
+                          ro code  0x1005295c      0x2  aci_events.o [5]
+  i.aci_gatt_proc_complete_event_cb
+                          ro code  0x10052960     0x20  aci_events.o [5]
+  i.aci_gatt_proc_complete_event
+                          ro code  0x10052980      0x2  aci_events.o [5]
+  i.aci_l2cap_connection_update_resp_event_cb
+                          ro code  0x10052984     0x20  aci_events.o [5]
+  i.aci_l2cap_connection_update_resp_event
+                          ro code  0x100529a4      0x2  aci_events.o [5]
+  i.aci_l2cap_proc_timeout_event_cb
+                          ro code  0x100529a8     0x20  aci_events.o [5]
+  i.aci_l2cap_proc_timeout_event
+                          ro code  0x100529c8      0x2  aci_events.o [5]
+  i.hci_disconnection_complete_event_cb
+                          ro code  0x100529cc     0x20  aci_events.o [5]
+  i.hci_encryption_change_event_cb
+                          ro code  0x100529ec     0x20  aci_events.o [5]
+  i.hci_encryption_change_event
+                          ro code  0x10052a0c      0x2  aci_events.o [5]
+  i.hci_encryption_key_refresh_complete_event_cb
+                          ro code  0x10052a10     0x20  aci_events.o [5]
+  i.hci_encryption_key_refresh_complete_event
+                          ro code  0x10052a30      0x2  aci_events.o [5]
+  i.hci_le_advertising_report_event_cb
+                          ro code  0x10052a34     0x20  aci_events.o [5]
+  i.hci_le_advertising_report_event
+                          ro code  0x10052a54      0x2  aci_events.o [5]
+  i.hci_le_direct_advertising_report_event_cb
+                          ro code  0x10052a58     0x20  aci_events.o [5]
+  i.hci_le_direct_advertising_report_event
+                          ro code  0x10052a78      0x2  aci_events.o [5]
+  i.hci_le_advertising_report_event_int_cb
+                          ro code  0x10052a7a     0x1e  aci_events.o [5]
+  i.hci_le_direct_advertising_report_event_int_cb
+                          ro code  0x10052a98     0x1e  aci_events.o [5]
+  .rodata                 const    0x10052ab8     0x1c  mbed_us_ticker_api.o [1]
+  .text                   ro code  0x10052ad4     0x1c  xsnprout.o [3]
+  i.aci_att_exec_write_resp_event_cb
+                          ro code  0x10052af0     0x1c  aci_events.o [5]
+  i.aci_att_exec_write_resp_event
+                          ro code  0x10052b0c      0x2  aci_events.o [5]
+  i.aci_gap_addr_not_resolved_event_cb
+                          ro code  0x10052b10     0x1c  aci_events.o [5]
+  i.aci_gap_addr_not_resolved_event
+                          ro code  0x10052b2c      0x2  aci_events.o [5]
+  i.aci_gap_authorization_req_event_cb
+                          ro code  0x10052b30     0x1c  aci_events.o [5]
+  i.aci_gap_authorization_req_event
+                          ro code  0x10052b4c      0x2  aci_events.o [5]
+  i.aci_gap_bond_lost_event_cb
+                          ro code  0x10052b50     0x1c  aci_events.o [5]
+  i.aci_gap_bond_lost_event
+                          ro code  0x10052b6c      0x2  aci_events.o [5]
+  i.aci_gap_limited_discoverable_event_cb
+                          ro code  0x10052b70     0x1c  aci_events.o [5]
+  i.aci_gap_limited_discoverable_event
+                          ro code  0x10052b8c      0x2  aci_events.o [5]
+  i.aci_gap_pass_key_req_event_cb
+                          ro code  0x10052b90     0x1c  aci_events.o [5]
+  i.aci_gap_pass_key_req_event
+                          ro code  0x10052bac      0x2  aci_events.o [5]
+  i.aci_gap_slave_security_initiated_event_cb
+                          ro code  0x10052bb0     0x1c  aci_events.o [5]
+  i.aci_gap_slave_security_initiated_event
+                          ro code  0x10052bcc      0x2  aci_events.o [5]
+  i.aci_gatt_proc_timeout_event_cb
+                          ro code  0x10052bd0     0x1c  aci_events.o [5]
+  i.aci_gatt_proc_timeout_event
+                          ro code  0x10052bec      0x2  aci_events.o [5]
+  i.hci_encryption_change_event_int_cb
+                          ro code  0x10052bee     0x1a  aci_events.o [5]
+  i.hci_encryption_key_refresh_complete_event_int_cb
+                          ro code  0x10052c08     0x1a  aci_events.o [5]
+  i.hci_le_generate_dhkey_complete_event_int_cb
+                          ro code  0x10052c22     0x1a  aci_events.o [5]
+  i.hci_le_read_local_p256_public_key_complete_event_int_cb
+                          ro code  0x10052c3c     0x1a  aci_events.o [5]
+  .rodata                 const    0x10052c58     0x18  SerialBase.o [1]
+  .rodata                 const    0x10052c70     0x18  xprintflarge.o [3]
+  .text                   ro code  0x10052c88     0x18  xfprout.o [3]
+  .text                   ro code  0x10052ca0     0x16  xprout.o [3]
+  .text                   ro code  0x10052cb8     0x10  putchar.o [3]
+  i.aci_gatt_prepare_write_permit_req_event_cb
+                          ro code  0x10052cc8     0x16  aci_events.o [5]
+  i.aci_gatt_prepare_write_permit_req_event
+                          ro code  0x10052cde      0x2  aci_events.o [5]
+  i.aci_l2cap_command_reject_event_cb
+                          ro code  0x10052ce0     0x16  aci_events.o [5]
+  i.aci_l2cap_command_reject_event
+                          ro code  0x10052cf6      0x2  aci_events.o [5]
+  i.hci_rx_acl_data_event_cb
+                          ro code  0x10052cf8     0x16  aci_events.o [5]
+  i.hci_rx_acl_data_event
+                          ro code  0x10052d0e      0x4  aci_events.o [5]
+  .rodata                 const    0x10052d14     0x14  SPI.o [1]
+  .rodata                 const    0x10052d28     0x14  Ticker.o [1]
+  .rodata                 const    0x10052d3c     0x14  TimerEvent.o [1]
+  i.aci_gatt_write_permit_req_event_cb
+                          ro code  0x10052d50     0x12  aci_events.o [5]
+  i.aci_gatt_write_permit_req_event
+                          ro code  0x10052d62      0x2  aci_events.o [5]
+  .constdata              const    0x10052d64     0x10  att.o [5]
+  .rodata                 const    0x10052d74     0x10  FileBase.o [1]
+  .text                   ro code  0x10052d84     0x10  main.o [1]
+  .text                   ro code  0x10052d94     0x10  main.o [1]
+  .text                   ro code  0x10052da4     0x10  main.o [1]
+  .text                   ro code  0x10052db4     0x10  main.o [1]
+  .text                   ro code  0x10052dc4     0x10  main.o [1]
+  .text                   ro code  0x10052dd4     0x10  main.o [1]
+  .text                   ro code  0x10052de4     0x10  main.o [1]
+  .text                   ro code  0x10052df4     0x10  main.o [1]
+  .text                   ro code  0x10052e04     0x10  startup_bluenrg1.o [1]
+  i.aci_gatt_read_multi_permit_req_event_cb
+                          ro code  0x10052e14     0x10  aci_events.o [5]
+  i.aci_gatt_read_multi_permit_req_event
+                          ro code  0x10052e24      0x2  aci_events.o [5]
+  i.aci_gatt_read_permit_req_event_cb
+                          ro code  0x10052e26     0x10  aci_events.o [5]
+  i.aci_gatt_tx_pool_available_event_cb
+                          ro code  0x10052e36      0xe  aci_events.o [5]
+  i.aci_gatt_tx_pool_available_event
+                          ro code  0x10052e44      0x2  aci_events.o [5]
+  .rodata                 const    0x10052e48      0xc  EventQueue.o [1]
+  .rodata                 const    0x10052e54      0xc  main.o [1]
+  .rodata                 const    0x10052e60      0xc  Ticker.o [1]
+  .text                   ro code  0x10052e6c      0xc  EventQueue.o [1]
+  .text                   ro code  0x10052e78      0xc  cexit.o [7]
+  i.hci_le_long_term_key_request_event_int_cb
+                          ro code  0x10052e84      0xc  aci_events.o [5]
+  i.aci_gatt_server_confirmation_event_cb
+                          ro code  0x10052e90      0xa  aci_events.o [5]
+  i.aci_gatt_server_confirmation_event
+                          ro code  0x10052e9a      0x2  aci_events.o [5]
+  i.hci_number_of_completed_packets_event_cb
+                          ro code  0x10052e9c      0xa  aci_events.o [5]
+  i.hci_number_of_completed_packets_event
+                          ro code  0x10052ea6      0x2  aci_events.o [5]
+  .rodata                 const    0x10052ea8      0x8  mbed_retarget.o [1]
+  .rodata                 const    0x10052eb0      0x8  Timeout.o [1]
+  .text                   ro code  0x10052eb8      0x8  main.o [1]
+  .text                   ro code  0x10052ec0      0x8  mbed_retarget.o [1]
+  .text                   ro code  0x10052ec8      0x8  Ticker.o [1]
+  .text                   ro code  0x10052ed0      0x8  xpurevirtual.o [3]
+  .rodata                 const    0x10052ed8      0x4  rtx_lib.o [1]
+  .text                   ro code  0x10052edc      0x4  BlueNRG1_it.o [1]
+  .text                   ro code  0x10052ee0      0x4  Stream.o [1]
+  SHT$$PREINIT_ARRAY               0x10052ee4      0x0  <Block>
+  SHT$$INIT_ARRAY                  0x10052ee4      0x4  <Block>
+    .init_array           const    0x10052ee4      0x4  main.o [1]
+  .text                   ro code  0x10052ee8      0x0  cstart_call_dtors.o [7]
+  .text                   ro code  0x10052ee8      0x0  cstart_closeall.o [7]
+  .text                   ro code  0x10052ee8      0x0  cstart_clearlocks.o [7]
+  .rodata                 const    0x10052ee8      0x0  zero_init3.o [7]
+  .rodata                 const    0x10052ee8      0x0  packbits_init_single.o [7]
+  Initializer bytes       const    0x10052ee8     0x9c  <for P3-1>
+  Initializer bytes       const    0x10052f84      0xa  <for BLUE-1>
+  Initializer bytes       const    0x10052f8e      0x5  <for app_base_block-1>
+                                 - 0x10052f93  0x12ed3
+
+"A4":                                              0x4
+  ota_sw_activation_block
+                                   0x20000004      0x4  <Block>
+    .ota_sw_activation    uninit   0x20000004      0x4  system_bluenrg1.o [1]
+                                 - 0x20000008      0x4
+
+"A5":                                              0x4
+  savedMSP_block                   0x20000008      0x4  <Block>
+    .savedMSP             zero     0x20000008      0x4  system_bluenrg1.o [1]
+                                 - 0x2000000c      0x4
+
+"A6":                                              0x4
+  wakeupFromSleepFlag_block
+                                   0x2000000c      0x4  <Block>
+    .wakeupFromSleepFlag  zero     0x2000000c      0x1  system_bluenrg1.o [1]
+                                 - 0x20000010      0x4
+
+"A7":                                              0x4
+  app_base_block                   0x20000010      0x4  <Block>
+    app_base_block-1               0x20000010      0x4  <Init block>
+      .app_base           inited   0x20000010      0x4  system_bluenrg1.o [1]
+                                 - 0x20000014      0x4
+
+"A8":                                              0x4
+  Blue_Flag_Ram_block              0x20000030      0x4  <Block>
+    .__blueflag_RAM       zero     0x20000030      0x4  system_bluenrg1.o [1]
+                                 - 0x20000034      0x4
+
+"A1":                                            0x20c
+  BLUE                             0x200000c0    0x20c  <Block>
+    BLUE-1                         0x200000c0    0x20c  <Init block>
+      .bss.__blue_RAM     inited   0x200000c0    0x20c  system_bluenrg1.o [1]
+                                 - 0x200002cc    0x20c
+
+"P3", part 1 of 3:                               0x299
+  P3-1                             0x200002cc    0x299  <Init block>
+    .data                 inited   0x200002cc      0xc  Blue1.o [1]
+    .data                 inited   0x200002d8      0x4  mbed_rtx_idle.o [1]
+    .data                 inited   0x200002dc      0x4  mem_alloc.o [5]
+    .data                 inited   0x200002e0     0x40  xfiles.o [3]
+    .data                 inited   0x20000320     0x40  xfiles.o [3]
+    .data                 inited   0x20000360     0x40  xfiles.o [3]
+    .data                 inited   0x200003a0     0x20  xfiles.o [3]
+    .data.os              inited   0x200003c0     0xa4  rtx_kernel.o [1]
+    __DLIB_PERTHREAD      inited   0x20000464      0x4  errno.o [3]
+    __DLIB_PERTHREAD      inited   0x20000468     0x74  setlocale.o [3]
+    __DLIB_PERTHREAD      inited   0x200004dc     0x88  localeconv.o [3]
+    .rom_var_in_ram2      inited   0x20000564      0x1  rom_global_var.o [5]
+                                 - 0x20000565    0x299
+
+"P3", part 2 of 3:                               0x1b0
+  .iar.dynexit                     0x20000568    0x1b0  <Block>
+    .iar.dynexit          uninit   0x20000568      0xc  cppinit.o [3]
+    .iar.dynexit          uninit   0x20000574    0x1a4  <Block tail>
+                                 - 0x20000718    0x1b0
+
+"P3", part 3 of 3:                              0x24f4
+  .bss                    zero     0x20000718   0x1070  mbed_boot.o [1]
+  .bss                    zero     0x20001788    0x5e8  ll_privacy.o [5]
+  .bss.os.thread.stack    zero     0x20001d70    0x300  rtx_lib.o [1]
+  .bss.os.thread.stack    zero     0x20002070    0x200  rtx_lib.o [1]
+  .bss                    zero     0x20002270    0x1d8  dlmalloc.o [3]
+  .bss                    zero     0x20002448    0x140  mbed_boot.o [1]
+  .bss                    zero     0x20002588    0x114  main.o [1]
+  .bss                    zero     0x2000269c     0xa0  mbed_boot.o [1]
+  .bss                    zero     0x2000273c     0x68  mbed_retarget.o [1]
+  .bss                    zero     0x200027a4     0x50  xfiles.o [3]
+  .bss                    zero     0x200027f4     0x50  xfiles.o [3]
+  .bss.os.msgqueue.mem    zero     0x20002844     0x50  rtx_lib.o [1]
+  .bss.os.thread.cb       zero     0x20002894     0x48  rtx_lib.o [1]
+  .bss.os.thread.cb       zero     0x200028dc     0x48  rtx_lib.o [1]
+  .bss                    zero     0x20002924     0x41  equeue_mbed.o [1]
+  .bss                    zero     0x20002965      0x1  mbed_error.o [1]
+  .bss                    zero     0x20002966      0x1  os_systick.o [1]
+  .bss                    zero     0x20002968     0x40  mbed_us_ticker_api.o [1]
+  .bss.os                 zero     0x200029a8     0x40  rtx_lib.o [1]
+  .bss                    zero     0x200029e8     0x3c  gatt_db.o [1]
+  .bss                    zero     0x20002a24     0x3c  mbed_boot.o [1]
+  .bss                    zero     0x20002a60     0x38  xsyslock_mtx.o [3]
+  .bss                    zero     0x20002a98     0x34  mem_alloc.o [5]
+  .bss.os.msgqueue.cb     zero     0x20002acc     0x34  rtx_lib.o [1]
+  .bss                    zero     0x20002b00     0x2c  BLE.o [1]
+  .bss                    zero     0x20002b2c     0x2c  FileBase.o [1]
+  .bss                    zero     0x20002b58     0x28  SPI.o [1]
+  .bss                    zero     0x20002b80     0x24  equeue_mbed.o [1]
+  .bss                    zero     0x20002ba4     0x18  dlmalloc.o [3]
+  .bss                    zero     0x20002bbc     0x10  serial_api.o [1]
+  .bss                    zero     0x20002bcc      0x8  mbed_critical.o [1]
+  .bss                    zero     0x20002bd4      0x8  rt_OsEventObserver.o [1]
+  .bss                    zero     0x20002bdc      0x8  serial_api.o [1]
+  .bss                    zero     0x20002be4      0x8  us_ticker_api.o [1]
+  .bss                    zero     0x20002bec      0x4  mbed_retarget.o [1]
+  .bss                    zero     0x20002bf0      0x4  mbed_retarget.o [1]
+  .bss                    zero     0x20002bf4      0x4  serial_api.o [1]
+  .bss                    zero     0x20002bf8      0x4  SPI.o [1]
+  .bss                    zero     0x20002bfc      0x4  Thread.o [1]
+  .bss                    zero     0x20002c00      0x4  cppinit.o [3]
+  .bss                    zero     0x20002c04      0x4  cppinit.o [3]
+  .bss                    zero     0x20002c08      0x4  xgetmemchunk.o [3]
+                                 - 0x20002c0c   0x24f4
+
+"A10":                                          0x1700
+  CSTACK                           0x20004900    0xc00  <Block>
+    CSTACK                uninit   0x20004900    0xc00  <Block tail>
+  HEAP                             0x20005500    0xb00  <Block>
+    HEAP                  uninit   0x20005500    0xb00  <Block tail>
+                                 - 0x20006000   0x1700
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    4 destination ranges, total size 0x24fd:
+          0x20000008     0x4
+          0x2000000c     0x1
+          0x20000030     0x4
+          0x20000718  0x24f4
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0xa (1% of destination):
+          0x10052f84     0xa
+    1 destination range, total size 0x20c:
+          0x200000c0   0x20c
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x5 (125% of destination):
+          0x10052f8e     0x5
+    1 destination range, total size 0x4:
+          0x20000010     0x4
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x9c (23% of destination):
+          0x10052ee8    0x9c
+    1 destination range, total size 0x299:
+          0x200002cc   0x299
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                       ro code  ro data  rw data
+    ------                       -------  -------  -------
+C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj: [1]
+    ATCmdParser.o                              60
+    BLE.o                            454       48       44
+    Blue1.o                          156        2       12
+    BlueNRG1_flash.o                  60
+    BlueNRG1_gpio.o                  230
+    BlueNRG1_it.o                      4
+    BlueNRG1_mft.o                   250
+    BlueNRG1_spi.o                   296
+    BlueNRG1_sysCtrl.o                24
+    BlueNRG1_uart.o                  480
+    EventQueue.o                     150       12
+    FATFileSystem.o                            64
+    FileBase.o                       260       16       44
+    FileHandle.o                       8
+    FilePath.o                       164
+    GenericGattClient.o                2
+    IMU.o                            656
+    Mutex.o                          216
+    SPI.o                            290       52       44
+    Serial.o                         146      140
+    SerialBase.o                     516       24
+    Stream.o                         300      200
+    Thread.o                          28                 4
+    Ticker.o                         190       32
+    Timeout.o                                   8
+    Timer.o                          220
+    TimerEvent.o                      86       20
+    equeue.o                       1 066
+    equeue_mbed.o                    360               101
+    gatt_db.o                         84                60
+    gpio_api.o                       140
+    irq_cm0.o                        152
+    main.o                         2 076       16      276
+    mbed_assert.o                     84
+    mbed_board.o                     344
+    mbed_boot.o                      570             4 748
+    mbed_critical.o                  180      128        8
+    mbed_error.o                      40                 1
+    mbed_gpio.o                      106
+    mbed_overrides.o                   2
+    mbed_retarget.o                1 124        8      112
+    mbed_rtx_handlers.o              876      368
+    mbed_rtx_idle.o                   36        1        4
+    mbed_sleep_manager.o               4
+    mbed_ticker_api.o                928
+    mbed_us_ticker_api.o              12       28       64
+    mbed_wait_api_rtos.o              82
+    misc.o                           120
+    os_systick.o                     142                 1
+    osal.o                            40
+    pin_device.o                      12
+    rt_OsEventObserver.o                                 8
+    rtx_delay.o                       76
+    rtx_evflags.o                  1 112
+    rtx_evr.o                        124
+    rtx_kernel.o                     840       38      164
+    rtx_lib.o                                 204    1 620
+    rtx_memory.o                     252
+    rtx_mempool.o                    204
+    rtx_msgqueue.o                 1 712
+    rtx_mutex.o                    1 056
+    rtx_system.o                     352
+    rtx_thread.o                   2 196
+    rtx_timer.o                      240
+    serial_api.o                     276                28
+    spi_api.o                        496
+    startup_bluenrg1.o               234
+    system_bluenrg1.o                472       15      541
+    us_ticker_api.o                  196                 8
+    ------------------------------------------------------
+    Total:                        23 604    1 484    7 892
+
+command line: [2]
+    ------------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    abort.o                           10
+    cppinit.o                        164                20
+    div.o                             32
+    dlmalloc.o                     5 816               496
+    errno.o                           16        1        4
+    fclose.o                         126
+    fflush.o                         180
+    fopen.o                           42
+    fputc.o                           86
+    fseek.o                           34
+    localeconv.o                     104       32      136
+    low_level_init.o                   4
+    memset.o                          20
+    printf.o                          36
+    putchar.o                         16
+    setlocale.o                       20       27      116
+    setvbuf.o                        176
+    strncmp.o                         44
+    vfprintf.o                        44
+    vsnprint.o                        60
+    xcloseall.o                      104
+    xencoding_sb.o                    80
+    xfgpos.o                          12
+    xfiles.o                                   53      384
+    xfofind.o                        232
+    xfopen.o                          96
+    xfoprep.o                        300
+    xfprout.o                         24
+    xfspos.o                         224
+    xfwprep.o                        192
+    xgetmemchunk.o                    44                 4
+    xmbcurmax.o                       10
+    xmbtowc.o                         28
+    xprintflarge.o                 4 318       24
+    xprout.o                          22
+    xpurevirtual.o                     8
+    xsnprout.o                        28
+    xsyslock.o                        60
+    xsyslock_mtx.o                   356                56
+    xtls.o                             2
+    xwctomb.o                         24
+    ------------------------------------------------------
+    Total:                        13 194      137    1 216
+
+dlpp6M_tl_fc.a: [4]
+    cxxabi.o                          78
+    cxxabiguard.o                     42
+    ------------------------------------------------------
+    Total:                           120
+
+libbluenrg1_stack.a: [5]
+    aci_events.o                   2 532      272
+    acl.o                            686
+    acl_list.o                       116
+    advance_wakeup_time.o          1 236
+    aes128cmac.o                     126
+    att.o                          2 150       16
+    bluenrg_gatt_aci.o                32
+    crypto.o                       1 018      296
+    gap.o                            404
+    gatt_client.o                     64
+    gatt_server.o                  2 366
+    hal.o                             92
+    hci.o                            142
+    host_timer.o                     318
+    isr_postproc.o                   332
+    isr_routines.o                   756
+    l2cap.o                        1 156
+    ll_isr.o                       5 908
+    ll_privacy.o                   2 832             1 512
+    ll_routines.o                    112
+    ll_routines_master.o           3 172
+    ll_routines_support.o             84
+    mem_alloc.o                                 1       56
+    multi_master_time.o            1 840
+    nvm.o                             76
+    pm.o                             694
+    rom_att.o                        562
+    rom_gatt_server.o                 94
+    rom_global_var.o                            1        1
+    rom_list.o                        94
+    rom_ll_isr_postproc.o            354
+    rom_ll_isr_routines.o          1 192
+    rom_ll_ll_routines.o             334
+    rom_ll_ll_routines_master.o      236
+    rom_ll_routines_support.o        270
+    rom_ll_timehandling.o            174       32
+    rom_sdb.o                        308
+    routines_support.o               260
+    sdb.o                          1 438
+    sm_common.o                    1 804
+    smp_scv42_isap.o                 156       96
+    utils.o                           58
+    ------------------------------------------------------
+    Total:                        35 578      714    1 569
+
+m6M_tl.a: [6]
+    DblAddSub.o                      424
+    DblCmpLe.o                        50
+    DblDiv.o                         194
+    DblMul.o                         388
+    DblToI32.o                        46
+    FltAddSub.o                      278
+    FltMul.o                         176
+    FltToDbl.o                        50
+    I32ToDbl.o                        32
+    I32ToFlt.o                        50
+    ------------------------------------------------------
+    Total:                         1 688
+
+rt6M_tl.a: [7]
+    ABImemcpy.o                       92
+    ABImemset.o                       88
+    I32DivModFast.o                  224
+    I64DivMod.o                      106
+    I64DivZer.o                        2
+    I64Mul.o                          50
+    I64Shl.o                          34
+    IntDivZer.o                        2
+    XXexit.o                          12
+    cexit.o                           12
+    cstart_call_dtors.o
+    cstart_clearlocks.o
+    cstart_closeall.o
+    data_init.o                       40
+    dynamic_init.o                    28
+    memchr.o                          24
+    memcmp.o                          40
+    packbits_init_single.o            60
+    strchr.o                          20
+    strcmp.o                          34
+    strlen.o                          16
+    uread4.o                          22
+    zero_init3.o                      60
+    ------------------------------------------------------
+    Total:                           966
+
+    Gaps                             132       10        1
+    Linker created                             88    6 308
+----------------------------------------------------------
+    Grand Total:                  75 282    2 433   16 986
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.dynexit$$Base      0x20000568           --   Gb  - Linker created -
+.iar.dynexit$$Limit     0x20000718           --   Gb  - Linker created -
+.iar.init_table$$Base   0x10052838           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x10052890           --   Gb  - Linker created -
+AES128ECB_Wrapper       0x10044c4b    0x7e  Code  Gb  aes128cmac.o [5]
+AES_general_SW_enc      0x10044d01   0x25c  Code  Gb  crypto.o [5]
+AES_keyschedule_enc     0x10044cc9    0x36  Code  Gb  crypto.o [5]
+AES_keyschedule_enc_LL  0x10044f69   0x158  Code  Lc  crypto.o [5]
+Accu_Handles_Requiring_Auth
+                        0x1004fb3d    0x6e  Code  Gb  rom_att.o [5]
+Accu_UuidTypes_Requiring_Auth
+                        0x1004e10f    0xe8  Code  Gb  rom_att.o [5]
+Acl_Clone_Fragment      0x1005109b    0x20  Code  Gb  pm.o [5]
+Acl_Copy_Data           0x1004e409    0x82  Code  Lc  pm.o [5]
+Acl_Disconnected_Peer   0x1005200d    0x4c  Code  Gb  acl.o [5]
+Acl_Get_Last            0x10051139     0xc  Code  Gb  pm.o [5]
+Acl_Get_Pack_Off        0x1004e65d    0x18  Code  Gb  pm.o [5]
+Acl_Rcv_Pkt_Handler     0x1004473d    0x1e  Code  Gb  acl.o [5]
+Acl_Transmit_Data       0x1004fee9    0x42  Code  Gb  acl.o [5]
+Acl_Transmit_Packet     0x1004ff31    0x16  Code  Gb  acl.o [5]
+Acl_Tx_Cmpl_Pkt_Handler
+                        0x10044419    0x1e  Code  Gb  acl.o [5]
+BLE::BLE(unsigned int)::transportInstances
+                        0x20002b28     0x4  Data  Lc  BLE.o [1]
+BLE::Instance(unsigned int)
+                        0x10049051    0xb0  Code  Gb  BLE.o [1]
+BLE::Instance(unsigned int)::badSingleton
+                        0x20002b00    0x20  Data  Lc  BLE.o [1]
+BLE::Instance(unsigned int)::singletons
+                        0x20002b20     0x4  Data  Lc  BLE.o [1]
+BLE::Instance(unsigned int)::static guard for badSingleton
+                        0x20002b24     0x4  Data  Lc  BLE.o [1]
+BLE::gap()              0x10049105     0x4  Code  Gb  BLE.o [1]
+BLE::gattServer()       0x10049121     0x4  Code  Gb  BLE.o [1]
+BLE::initImplementation(FunctionPointerWithContext<BLE::InitializationCompleteCallbackContext *>)
+                        0x1004902d    0x24  Code  Gb  BLE.o [1]
+BLE::onEventsToProcess(FunctionPointerWithContext<BLE::OnEventsToProcessCallbackContext *> const &)
+                        0x10049161    0x36  Code  Gb  BLE.o [1]
+BLE::processEvents()    0x1004913d    0x24  Code  Gb  BLE.o [1]
+BLUE$$Base              0x200000c0           --   Gb  - Linker created -
+BLUE$$Limit             0x200002cc           --   Gb  - Linker created -
+Blue1::acceleration_update_rate
+                        0x200002ce     0x2  Data  Gb  Blue1.o [1]
+Blue1::connected        0x200002d4     0x4  Data  Gb  Blue1.o [1]
+Blue1::sensorTimer_expired
+                        0x200002cc     0x1  Data  Gb  Blue1.o [1]
+Blue1::set_connectable  0x200002cd     0x1  Data  Gb  Blue1.o [1]
+Blue_Flag_Ram_block$$Base
+                        0x20000030           --   Gb  - Linker created -
+Blue_Flag_Ram_block$$Limit
+                        0x20000034           --   Gb  - Linker created -
+Blue_Handler            0x10051739     0x8  Code  Gb  Blue1.o [1]
+Build_Notif_Or_Ind      0x1004eaa5    0x46  Code  Gb  gatt_server.o [5]
+CSTACK$$Base            0x20004900           --   Gb  - Linker created -
+CSTACK$$Length          0x00000c00           --   Gb  - Linker created -
+CSTACK$$Limit           0x20005500           --   Gb  - Linker created -
+Check_Permission        0x1004e5c1    0x9c  Code  Gb  rom_att.o [5]
+Check_Stat              0x10051077    0x24  Code  Gb  acl.o [5]
+DEVICE_NAME             0x10047fc0     0x4  Data  Lc  main.o [1]
+Delay_With_NOP_Cycles   0x1004f971     0xe  Code  Gb  utils.o [5]
+DeviceConfiguration     0x1004f079    0xa4  Code  Gb  system_bluenrg1.o [1]
+DtorRecArray            0x20000568     0xc  Data  Lc  cppinit.o [3]
+Erase_Sector            0x1004f895     0xe  Code  Lc  sdb.o [5]
+EventFlagsCheck         0x1004cbf1    0x50  Code  Lc  rtx_evflags.o [1]
+EvrRtxEventFlagsCreated
+                        0x1004d501     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxEventFlagsDelete  0x1004d673     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxEventFlagsDestroyed
+                        0x1004d509     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxEventFlagsError   0x100481e5    0x44  Code  Gb  mbed_rtx_handlers.o [1]
+EvrRtxEventFlagsNew     0x1004d50b     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxEventFlagsSet     0x1004d50d     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxEventFlagsSetDone
+                        0x1004d503     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxEventFlagsWait    0x1004d671     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxEventFlagsWaitCompleted
+                        0x1004d4ff     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxEventFlagsWaitNotCompleted
+                        0x1004d507     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxEventFlagsWaitPending
+                        0x1004d505     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxEventFlagsWaitTimeout
+                        0x10048003     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxKernelError       0x1004812d    0x40  Code  Gb  mbed_rtx_handlers.o [1]
+EvrRtxKernelGetState    0x10048a1d     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxKernelInitialize  0x10048aa7     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxKernelInitializeCompleted
+                        0x10048a1b     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxKernelStart       0x10048aa9     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxKernelStarted     0x10048aa5     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMemoryAlloc       0x100498e7     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMemoryBlockAlloc  0x100498e3     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMemoryBlockFree   0x100498e5     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMemoryBlockInit   0x100498e1     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMemoryFree        0x100498e9     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMemoryInit        0x10049ebf     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMemoryPoolAllocTimeout
+                        0x10048009     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueueCreated
+                        0x1004dd8d     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueueError
+                        0x1004831d    0x10  Code  Gb  mbed_rtx_handlers.o [1]
+EvrRtxMessageQueueGet   0x1004dd9d     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueueGetPending
+                        0x1004dd93     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueueGetTimeout
+                        0x1004800b     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueueInsertPending
+                        0x1004dd9b     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueueInserted
+                        0x1004dd89     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueueNew   0x1004dd97     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueueNotInserted
+                        0x1004dd91     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueueNotRetrieved
+                        0x1004dd95     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueuePut   0x1004dd99     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueuePutPending
+                        0x1004dd8f     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueuePutTimeout
+                        0x1004800d     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMessageQueueRetrieved
+                        0x1004dd8b     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMutexAcquire      0x10048ab9     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMutexAcquirePending
+                        0x10048ab1     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMutexAcquireTimeout
+                        0x10048005     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMutexAcquired     0x10048aad     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMutexCreated      0x10048aaf     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMutexDelete       0x10048abd     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMutexDestroyed    0x10048ab5     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMutexError        0x10048229    0x44  Code  Gb  mbed_rtx_handlers.o [1]
+EvrRtxMutexNew          0x10048ab7     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMutexNotAcquired  0x10048ab3     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMutexRelease      0x10048abb     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxMutexReleased     0x10048aab     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxSemaphoreAcquireTimeout
+                        0x10048007     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadBlocked     0x10048013     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadCreated     0x1004850f     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadDelay       0x1004d049     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadDelayCompleted
+                        0x10047fff     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadDestroyed   0x10048517     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadError       0x10048185    0x44  Code  Gb  mbed_rtx_handlers.o [1]
+EvrRtxThreadExit        0x1004832d     0xc  Code  Gb  mbed_rtx_handlers.o [1]
+EvrRtxThreadFlagsWaitCompleted
+                        0x10048015     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadFlagsWaitTimeout
+                        0x10048001     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadGetId       0x10048513     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadGetName     0x10048511     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadJoined      0x10048515     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadNew         0x10048519     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadSwitch      0x10048011     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxThreadUnblocked   0x1004800f     0x2  Code  Wk  rtx_evr.o [1]
+EvrRtxTimerCallback     0x10050e29     0x2  Code  Wk  rtx_evr.o [1]
+FLASH_ErasePage         0x1004f481    0x1a  Code  Gb  BlueNRG1_flash.o [1]
+FLASH_ProgramWord       0x1004f49b    0x10  Code  Gb  BlueNRG1_flash.o [1]
+Find_Attr_Index         0x1004e3b9    0x48  Code  Gb  gatt_server.o [5]
+Find_Client_Data        0x1004f8a5    0xc8  Code  Gb  rom_sdb.o [5]
+Find_Gatt_Client        0x1004ede5    0x3c  Code  Gb  gatt_client.o [5]
+Find_L2cap_conn_index   0x1004fd49    0x34  Code  Lc  l2cap.o [5]
+Find_L2cap_signalling_connection
+                        0x1004fe85    0x32  Code  Gb  l2cap.o [5]
+Flash_Write_Flagged     0x1004f445    0x32  Code  Gb  nvm.o [5]
+FunctionPointerWithContext<BLE::InitializationCompleteCallbackContext *>::FunctionPointerWithContext(const FunctionPointerWithContext<BLE::InitializationCompleteCallbackContext *>&)
+                        0x1004a605    0x16  Code  Gb  BLE.o [1]
+FunctionPointerWithContext<BLE::InitializationCompleteCallbackContext *>::FunctionPointerWithContext(void (*)(BLE::InitializationCompleteCallbackContext *))
+                        0x10049881    0x20  Code  Gb  main.o [1]
+FunctionPointerWithContext<BLE::InitializationCompleteCallbackContext *>::functioncaller(const FunctionPointerWithContext<BLE::InitializationCompleteCallbackContext *>*, BLE::InitializationCompleteCallbackContext *)
+                        0x10052df5    0x10  Code  Gb  main.o [1]
+FunctionPointerWithContext<BLE::OnEventsToProcessCallbackContext *>::FunctionPointerWithContext(void (*)(BLE::OnEventsToProcessCallbackContext *))
+                        0x10049861    0x20  Code  Gb  main.o [1]
+FunctionPointerWithContext<BLE::OnEventsToProcessCallbackContext *>::functioncaller(const FunctionPointerWithContext<BLE::OnEventsToProcessCallbackContext *>*, BLE::OnEventsToProcessCallbackContext *)
+                        0x10052de5    0x10  Code  Gb  main.o [1]
+FunctionPointerWithContext<Gap::DisconnectionCallbackParams_t const *>::FunctionPointerWithContext(void (*)(Gap::DisconnectionCallbackParams_t const *))
+                        0x10049299    0x20  Code  Gb  main.o [1]
+FunctionPointerWithContext<Gap::DisconnectionCallbackParams_t const *>::functioncaller(const FunctionPointerWithContext<Gap::DisconnectionCallbackParams_t const *>*, Gap::DisconnectionCallbackParams_t const *)
+                        0x10052da5    0x10  Code  Gb  main.o [1]
+FunctionPointerWithContext<GattReadAuthCallbackParams *>::FunctionPointerWithContext(void (*)(GattReadAuthCallbackParams *))
+                        0x1004b85d    0x20  Code  Gb  main.o [1]
+FunctionPointerWithContext<GattReadAuthCallbackParams *>::functioncaller(const FunctionPointerWithContext<GattReadAuthCallbackParams *>*, GattReadAuthCallbackParams *)
+                        0x10052db5    0x10  Code  Gb  main.o [1]
+FunctionPointerWithContext<GattWriteAuthCallbackParams *>::FunctionPointerWithContext(void (*)(GattWriteAuthCallbackParams *))
+                        0x1004b87d    0x20  Code  Gb  main.o [1]
+FunctionPointerWithContext<GattWriteAuthCallbackParams *>::functioncaller(const FunctionPointerWithContext<GattWriteAuthCallbackParams *>*, GattWriteAuthCallbackParams *)
+                        0x10052dc5    0x10  Code  Gb  main.o [1]
+FunctionPointerWithContext<GattWriteCallbackParams const *>::FunctionPointerWithContext(void (*)(GattWriteCallbackParams const *))
+                        0x100492b9    0x20  Code  Gb  main.o [1]
+FunctionPointerWithContext<GattWriteCallbackParams const *>::functioncaller(const FunctionPointerWithContext<GattWriteCallbackParams const *>*, GattWriteCallbackParams const *)
+                        0x10052dd5    0x10  Code  Gb  main.o [1]
+GAP_Connection_Complete_Handler
+                        0x10051de1    0x5a  Code  Gb  gap.o [5]
+GAP_LL_Event_Handler_ISR
+                        0x10051e9d    0x56  Code  Gb  gap.o [5]
+GAP_Parse_Advertising_Report
+                        0x10051ef9    0x10  Code  Gb  gap.o [5]
+GATT_Clear_Flag         0x1004ee25     0x8  Code  Gb  rom_att.o [5]
+GATT_Connection_Complete_Handler
+                        0x10052061    0x42  Code  Gb  gatt_server.o [5]
+GATT_Server_Set_Flag    0x1004ea91    0x10  Code  Lc  gatt_server.o [5]
+GATT_Set_Flag           0x1004e1f7     0x8  Code  Gb  rom_att.o [5]
+GPIO_Init               0x1004a659    0x9e  Code  Gb  BlueNRG1_gpio.o [1]
+GPIO_ReadBit            0x1004a703     0x6  Code  Gb  BlueNRG1_gpio.o [1]
+GPIO_ResetBits          0x1004a70f     0x6  Code  Gb  BlueNRG1_gpio.o [1]
+GPIO_SetBits            0x1004a709     0x6  Code  Gb  BlueNRG1_gpio.o [1]
+GPIO_StructInit         0x1004a6f7     0xc  Code  Gb  BlueNRG1_gpio.o [1]
+GPIO_WriteBit           0x1004a715     0xe  Code  Gb  BlueNRG1_gpio.o [1]
+Gap::accumulateAdvertisingPayload(GapAdvertisingData::DataType_t, unsigned char const *, unsigned char)
+                        0x100493a1    0x4c  Code  Gb  main.o [1]
+Gap::startAdvertising()
+                        0x100491cd    0x1a  Code  Gb  main.o [1]
+GapAdvertisingData::addData(GapAdvertisingData::DataType_t, unsigned char const *, unsigned char)
+                        0x10049371    0x30  Code  Gb  main.o [1]
+GapAdvertisingData::addField(GapAdvertisingData::DataType_t, unsigned char const *, unsigned char, unsigned char *)
+                        0x1004b89d    0xc6  Code  Gb  main.o [1]
+GapAdvertisingData::appendField(GapAdvertisingData::DataType_t, unsigned char const *, unsigned char)
+                        0x1004b963    0x50  Code  Gb  main.o [1]
+Gatt_Appl_Auth_For_Read
+                        0x10050b21    0xf6  Code  Gb  gatt_server.o [5]
+Gatt_Find_Srv_Owner_Of_Handle
+                        0x1004e2b5    0x3e  Code  Gb  gatt_server.o [5]
+Gatt_Find_Timed_Out_Connection_Index
+                        0x1004eea5    0x34  Code  Gb  gatt_server.o [5]
+Gatt_Server_L2C_Handler
+                        0x1004ebbd   0x224  Code  Gb  gatt_server.o [5]
+Gatt_Server_L2C_Handler_ISR
+                        0x10051fa1    0x42  Code  Gb  gatt_server.o [5]
+Gatt_Update_Charac_Value
+                        0x10051849    0x60  Code  Gb  gatt_server.o [5]
+Gatt_Update_Charac_Value_Ext
+                        0x1004e741   0x2fe  Code  Gb  gatt_server.o [5]
+Get_Max_SecDb_Size      0x1004f993     0x4  Code  Gb  sdb.o [5]
+Get_SecRec_Len_In_Words
+                        0x1004f695     0xc  Code  Gb  rom_sdb.o [5]
+Get_SecRecord_Size      0x1004f87d     0x4  Code  Gb  sdb.o [5]
+HAL_VTimerAcc_sysT32_ms
+                        0x1004ef95    0x20  Code  Gb  host_timer.o [5]
+HEAP$$Base              0x20005500           --   Gb  - Linker created -
+HEAP$$Length            0x00000b00           --   Gb  - Linker created -
+HEAP$$Limit             0x20006000           --   Gb  - Linker created -
+Hal_Get_Random_Number   0x10043ea9    0x28  Code  Gb  hal.o [5]
+Hal_Get_Random_Number32
+                        0x1004475b    0x12  Code  Gb  hal.o [5]
+HardFault_Handler       0x10052edf     0x2  Code  Gb  BlueNRG1_it.o [1]
+IMU::IMU(mbed::Serial *, mbed::SPI *)
+                        0x10048d4d     0x6  Code  Gb  IMU.o [1]
+IMU::IMU_register(char, char)
+                        0x10048d81    0x4a  Code  Gb  IMU.o [1]
+IMU::configIMU()        0x10048d55    0x2c  Code  Gb  IMU.o [1]
+IMU::printSensor()      0x10048e81    0xfa  Code  Gb  IMU.o [1]
+IMU::readAccIMU(short *)
+                        0x10048dcb    0x54  Code  Gb  IMU.o [1]
+IMU::readGyroIMU(short *)
+                        0x10048e1f    0x52  Code  Gb  IMU.o [1]
+IMU::~IMU()             0x10048d53     0x2  Code  Gb  IMU.o [1]
+InvaliDate_Record       0x1004f409    0x1a  Code  Gb  rom_sdb.o [5]
+Is_Address_Initialized  0x100507e5    0x16  Code  Gb  rom_ll_ll_routines.o [5]
+Is_Flash_Write_On_Going
+                        0x100417e9     0xa  Code  Gb  nvm.o [5]
+L2CAP_Get_PDU_Len       0x1004e0e5     0xe  Code  Gb  l2cap.o [5]
+L2CAP_Reset_To_Closed_State
+                        0x100520cd    0x34  Code  Gb  l2cap.o [5]
+L2C_Build_Command_Reject_Pdu
+                        0x1004fe09    0x7a  Code  Gb  l2cap.o [5]
+L2C_Connection_Complete_Handler
+                        0x10051f7d    0x24  Code  Gb  l2cap.o [5]
+L2C_Connection_Complete_Signal_Handler
+                        0x100520a9    0x24  Code  Gb  l2cap.o [5]
+L2C_Rcv_Event_Handler   0x100510cb    0x3e  Code  Gb  l2cap.o [5]
+L2C_Rcv_Event_Handler_ISR
+                        0x10051f09    0x5a  Code  Gb  l2cap.o [5]
+L2C_Send_Data           0x1004febd    0x2c  Code  Gb  l2cap.o [5]
+L2C_Signal_Channel_Handler
+                        0x1004fbad   0x194  Code  Gb  l2cap.o [5]
+L2C_Signal_Channel_Handler_ISR
+                        0x10051fe9    0x24  Code  Gb  l2cap.o [5]
+LEDService::LEDService(BLE &, bool)
+                        0x100492d9    0x98  Code  Gb  main.o [1]
+LE_TO_NRG_32            0x1004f97f    0x14  Code  Gb  utils.o [5]
+LL                      0x20001b00   0x270  Data  Gb  ll_privacy.o [5]
+LL_Encrypt_Plain_Data   0x10044811    0x4a  Code  Gb  ll_routines_support.o [5]
+LL_Get_Address          0x100507fd    0x2a  Code  Gb  rom_ll_ll_routines.o [5]
+LL_RPADATABASE          0x20001798   0x368  Data  Gb  ll_privacy.o [5]
+LL_Rcv_ACL_Data         0x10051109    0x2a  Code  Gb  rom_ll_ll_routines.o [5]
+LL_Send_ACL_Data        0x1004ff49    0x4e  Code  Gb  rom_ll_ll_routines.o [5]
+LL_Sleep_Req            0x10043ed1    0x4a  Code  Gb  rom_ll_routines_support.o [5]
+LL_Start_Encryption     0x10050e2d    0xe4  Code  Gb  rom_ll_ll_routines_master.o [5]
+LL_Update_Advertising_Buffers
+                        0x10043f25    0x40  Code  Gb  rom_ll_ll_routines.o [5]
+LL_Update_Scanning_Initiating_Buffers
+                        0x10043f69    0x3c  Code  Gb  rom_ll_ll_routines.o [5]
+LL_receive_data_patch   0x100428e9    0xba  Code  Gb  isr_routines.o [5]
+LL_update_proc          0x10042af9    0x54  Code  Gb  rom_ll_isr_routines.o [5]
+List_Circular_Insert_Tail
+                        0x1004e731     0xe  Code  Gb  rom_list.o [5]
+List_Circular_Node_Present
+                        0x1004f029    0x16  Code  Gb  rom_list.o [5]
+List_Circular_Remove_Head
+                        0x1004e717    0x1a  Code  Gb  rom_list.o [5]
+List_Circular_Remove_Node
+                        0x1004ef53    0x20  Code  Gb  rom_list.o [5]
+LoadInt                 0x1004adcb    0x68  Code  Lc  xprintflarge.o [3]
+MFT1B_Handler           0x100514cd    0x26  Code  Gb  us_ticker_api.o [1]
+MFT_ClearIT             0x10050d1d     0xc  Code  Gb  BlueNRG1_mft.o [1]
+MFT_Cmd                 0x10050cd9    0x14  Code  Gb  BlueNRG1_mft.o [1]
+MFT_EnableIT            0x10050d09    0x14  Code  Gb  BlueNRG1_mft.o [1]
+MFT_GetCounter2         0x10050d05     0x4  Code  Gb  BlueNRG1_mft.o [1]
+MFT_Init                0x10050c3d    0x8c  Code  Gb  BlueNRG1_mft.o [1]
+MFT_SetCounter2         0x10050d01     0x4  Code  Gb  BlueNRG1_mft.o [1]
+MFT_StatusIT            0x10050d29     0xe  Code  Gb  BlueNRG1_mft.o [1]
+MFT_StructInit          0x10050cc9    0x10  Code  Gb  BlueNRG1_mft.o [1]
+MessageQueueGet         0x1004d727    0x3c  Code  Lc  rtx_msgqueue.o [1]
+MessageQueuePut         0x1004d6d9    0x4e  Code  Lc  rtx_msgqueue.o [1]
+MessageQueueRemove      0x1004d763    0x1e  Code  Lc  rtx_msgqueue.o [1]
+NMI_Handler             0x10052edd     0x2  Code  Gb  BlueNRG1_it.o [1]
+NVIC_Init               0x1004bda9    0x66  Code  Gb  misc.o [1]
+OS_Tick_AcknowledgeIRQ  0x1004d6cd     0xc  Code  Wk  os_systick.o [1]
+OS_Tick_Enable          0x10048a75    0x30  Code  Wk  os_systick.o [1]
+OS_Tick_GetIRQn         0x10048a6d     0x6  Code  Wk  os_systick.o [1]
+OS_Tick_Setup           0x10048a21    0x4c  Code  Wk  os_systick.o [1]
+Osal_MemCmp             0x100440d9     0x8  Code  Gb  osal.o [1]
+Osal_MemCpy             0x100440b9     0xc  Code  Gb  osal.o [1]
+Osal_MemSet             0x100440c5    0x14  Code  Gb  osal.o [1]
+PM_Append_Fragment      0x100510bb    0x10  Code  Gb  pm.o [5]
+PM_Copy_Pckt_Data       0x1004e0f3    0x14  Code  Gb  pm.o [5]
+PM_Extend_Pckt_Pdu_Size
+                        0x1004e27f    0x36  Code  Gb  pm.o [5]
+PM_Get_Available_Fragments
+                        0x1004ee6d    0x34  Code  Gb  pm.o [5]
+PM_Get_Fragments_Count  0x1004e48b    0x12  Code  Gb  pm.o [5]
+PM_Get_Pckt             0x1004e49d    0x7c  Code  Gb  pm.o [5]
+PM_Release_Pckt         0x1004e51d    0x56  Code  Gb  pm.o [5]
+PM_Set_Att_Pdu_Length   0x1004e30d    0x50  Code  Gb  pm.o [5]
+PM_Set_ConnHandle       0x1004e35d     0xc  Code  Gb  pm.o [5]
+PM_Write_Pckt_Data      0x1004e2f9    0x14  Code  Gb  pm.o [5]
+PRIVWHIT_u8AddAddrInList
+                        0x10044865   0x1ca  Code  Gb  ll_privacy.o [5]
+PRIVWHIT_u8RemoveAddrInList
+                        0x10044a3d    0xba  Code  Gb  ll_privacy.o [5]
+PRIVWHIT_u8SearchAddrInList
+                        0x10044771    0x9c  Code  Gb  ll_privacy.o [5]
+PRIV_SearchAddrInWhiteList
+                        0x100423dd    0x42  Code  Gb  ll_privacy.o [5]
+PRIV_u32ProcessAdvPacket
+                        0x10041d19   0x686  Code  Gb  ll_privacy.o [5]
+PRIV_u8ResolvePrivateAddress
+                        0x10043fc9    0xe0  Code  Gb  ll_privacy.o [5]
+PendST                  0x20002966     0x1  Data  Lc  os_systick.o [1]
+PendSV_Handler          0x10051923          Code  Gb  irq_cm0.o [1]
+RAL_Isr                 0x100400c1  0x1706  Code  Gb  ll_isr.o [5]
+Read_Blob_Resp          0x1005028d   0x160  Code  Gb  att.o [5]
+Read_By_Type_Resp       0x1004dda1   0x33c  Code  Gb  att.o [5]
+Read_Multi_Resp         0x1004f999   0x1a0  Code  Gb  att.o [5]
+Read_RecordValidity     0x1004f3e9     0xc  Code  Gb  rom_sdb.o [5]
+Read_Request_CB         0x100517d5    0x4c  Code  Gb  gatt_db.o [1]
+Read_Resp               0x10050571   0x146  Code  Gb  att.o [5]
+Read_SDBRecord          0x1004f669    0x28  Code  Gb  rom_sdb.o [5]
+Reclassify_All_Channels
+                        0x1004467d    0xb8  Code  Gb  ll_routines_master.o [5]
+Region$$Table$$Base     0x10052838           --   Gb  - Linker created -
+Region$$Table$$Limit    0x10052890           --   Gb  - Linker created -
+SDB_Add_Record          0x1004f4bd   0x1a8  Code  Gb  sdb.o [5]
+SDB_Delete              0x1004f6a1   0x16a  Code  Gb  sdb.o [5]
+SDB_Get_GattDb_End_Addr
+                        0x1004f429    0x18  Code  Gb  sdb.o [5]
+SDB_Get_GattDb_Start_Addr
+                        0x1004f3d1    0x12  Code  Gb  sdb.o [5]
+SDB_Get_SecurityDb_Start_Addr
+                        0x1004f881     0xe  Code  Gb  sdb.o [5]
+SHT$$INIT_ARRAY$$Base   0x10052ee4           --   Gb  - Linker created -
+SHT$$INIT_ARRAY$$Limit  0x10052ee8           --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Base
+                        0x10052ee4           --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Limit
+                        0x10052ee4           --   Gb  - Linker created -
+SM_Check_Encryption_KeySize
+                        0x1004e6f7    0x20  Code  Gb  sm_common.o [5]
+SM_Connection_Complete_Handler
+                        0x1005082d    0x76  Code  Lc  sm_common.o [5]
+SM_Get_Link_Status      0x1004e6c9    0x2e  Code  Gb  sm_common.o [5]
+SM_Get_Remote_Device_Info
+                        0x1004e579    0x44  Code  Gb  sm_common.o [5]
+SM_L2CAP_Encryption_changed_Handler_ISR
+                        0x10051591    0xc0  Code  Gb  sm_common.o [5]
+SM_L2CAP_Handler        0x10051145    0xda  Code  Gb  sm_common.o [5]
+SM_L2CAP_Handler_ISR    0x100506b9   0x126  Code  Gb  sm_common.o [5]
+SPI_ClearRXFIFO         0x1004c40d     0xe  Code  Gb  BlueNRG1_spi.o [1]
+SPI_ClearTXFIFO         0x1004c41b    0x22  Code  Gb  BlueNRG1_spi.o [1]
+SPI_Cmd                 0x1004c3d5    0x18  Code  Gb  BlueNRG1_spi.o [1]
+SPI_GetFlagStatus       0x1004c3f9     0x6  Code  Gb  BlueNRG1_spi.o [1]
+SPI_Init                0x1004c359    0x7c  Code  Gb  BlueNRG1_spi.o [1]
+SPI_ReceiveData         0x1004c3f3     0x6  Code  Gb  BlueNRG1_spi.o [1]
+SPI_SendData            0x1004c3ed     0x6  Code  Gb  BlueNRG1_spi.o [1]
+SPI_SetDummyCharacter   0x1004c453     0x6  Code  Gb  BlueNRG1_spi.o [1]
+SPI_SetMasterCommunicationMode
+                        0x1004c43d    0x16  Code  Gb  BlueNRG1_spi.o [1]
+STORE_LE_16             0x1004e107     0x8  Code  Gb  utils.o [5]
+STORE_LE_32             0x1004f3f9    0x10  Code  Gb  utils.o [5]
+SVC_Handler             0x100518ad          Code  Gb  irq_cm0.o [1]
+SafeBool_::base::trueTag() const
+                        0x10044cff     0x2  Code  Gb  GenericGattClient.o [1]
+Sbox                    0x100508e8   0x100  Data  Gb  crypto.o [5]
+Search_Handle           0x1004ea71    0x1e  Code  Gb  rom_gatt_server.o [5]
+Search_In_Stat          0x10051057    0x20  Code  Gb  acl.o [5]
+Search_Service_Handle   0x1004ea49    0x24  Code  Gb  gatt_server.o [5]
+Select_Next_Notification_Client
+                        0x1004eb69    0x4e  Code  Gb  gatt_server.o [5]
+Send_Error_Resp         0x1004e24f    0x30  Code  Gb  rom_att.o [5]
+Send_Notif_Or_Ind       0x1004eaed    0x76  Code  Gb  gatt_server.o [5]
+SingletonPtr<rtos::Mutex>::get()::string
+                        0x10052d14    0x14  Data  Gb  SPI.o [1]
+SingletonPtr<rtos::Mutex>::get()::string (instance 2)
+                        0x10052200    0x40  Data  Gb  FATFileSystem.o [1]
+SingletonPtr<rtos::Mutex>::operator ->()
+                        0x10049af1    0x50  Code  Gb  SPI.o [1]
+Start_Gatt_Timer        0x1004ee49    0x20  Code  Gb  rom_gatt_server.o [5]
+Stop_Gatt_Timer         0x1004ee2d    0x1c  Code  Gb  rom_gatt_server.o [5]
+SysCtrl_PeripheralClockCmd
+                        0x1004a741    0x14  Code  Gb  BlueNRG1_sysCtrl.o [1]
+SysTick_Handler         0x1005192f          Code  Gb  irq_cm0.o [1]
+SystemInit              0x1004f11d    0xb6  Code  Gb  system_bluenrg1.o [1]
+ThreadFlagsCheck        0x10046b9d    0x50  Code  Lc  rtx_thread.o [1]
+Thunk for (offset -56) mbed::Serial::_putc(int)
+                        0x10048c09     0x2  Code  Gb  Serial.o [1]
+Thunk for (offset -56) mbed::Serial::lock()
+                        0x10048c13     0x2  Code  Gb  Serial.o [1]
+Thunk for (offset -56) mbed::Serial::unlock()
+                        0x10048c23     0x2  Code  Gb  Serial.o [1]
+TimerInsert             0x10050d39    0x3c  Code  Lc  rtx_timer.o [1]
+Timer_ExpiryCallback    0x100417d5    0x10  Code  Gb  host_timer.o [5]
+Timer_StartOneShot      0x1004ef31    0x22  Code  Gb  host_timer.o [5]
+Timer_StartOneShot_sysTime32
+                        0x1004efb9    0x6a  Code  Gb  host_timer.o [5]
+Timer_StopOneShot       0x1004eedd    0x4e  Code  Gb  host_timer.o [5]
+Timer_sysTime32_convMachineTime
+                        0x1004ef75    0x1c  Code  Gb  host_timer.o [5]
+UART_ClearITPendingBit  0x1004bd5b     0x6  Code  Gb  BlueNRG1_uart.o [1]
+UART_Cmd                0x1004bbc9    0x18  Code  Gb  BlueNRG1_uart.o [1]
+UART_GetFlagStatus      0x1004bd27    0x22  Code  Gb  BlueNRG1_uart.o [1]
+UART_GetITStatus        0x1004bd49    0x12  Code  Gb  BlueNRG1_uart.o [1]
+UART_Handler            0x10049a65    0x3c  Code  Gb  serial_api.o [1]
+UART_ITConfig           0x1004bd09    0x14  Code  Gb  BlueNRG1_uart.o [1]
+UART_Init               0x1004bbe1   0x128  Code  Gb  BlueNRG1_uart.o [1]
+UART_RxFifoIrqLevelConfig
+                        0x1004bd61    0x14  Code  Gb  BlueNRG1_uart.o [1]
+UART_SendData           0x1004bd1d     0xa  Code  Gb  BlueNRG1_uart.o [1]
+UUID::UUID(const UUID&)
+                        0x1004b843    0x1a  Code  Gb  main.o [1]
+ValidLinkPermRequest    0x1004e369    0x50  Code  Gb  att.o [5]
+Virtual function table for mbed::FileBase
+                        0x10052d74    0x10  Data  Gb  FileBase.o [1]
+Virtual function table for mbed::FileLike
+                        0x10051e40    0x5c  Data  Gb  Stream.o [1]
+Virtual function table for mbed::SPI
+                        0x100528b0    0x20  Data  Gb  SPI.o [1]
+Virtual function table for mbed::Serial
+                        0x10051a10    0x8c  Data  Gb  Serial.o [1]
+Virtual function table for mbed::SerialBase
+                        0x10052c58    0x18  Data  Gb  SerialBase.o [1]
+Virtual function table for mbed::Stream
+                        0x10051b1c    0x6c  Data  Gb  Stream.o [1]
+Virtual function table for mbed::Ticker
+                        0x10052d28    0x14  Data  Gb  Ticker.o [1]
+Virtual function table for mbed::TimerEvent
+                        0x10052d3c    0x14  Data  Gb  TimerEvent.o [1]
+WindowWiden1            0x10044189     0xa  Code  Gb  rom_ll_timehandling.o [5]
+WindowWiden2            0x100441a1    0x10  Code  Gb  rom_ll_timehandling.o [5]
+Write_Client_Data       0x1004f219   0x1b2  Code  Gb  sdb.o [5]
+Write_SDBRecord         0x1004f811    0x68  Code  Lc  sdb.o [5]
+_BlueNRG_Stack_Init_params
+                        0x20002a98    0x34  Data  Gb  mem_alloc.o [5]
+_Close_all              0x10051bf1    0x68  Code  Gb  xcloseall.o [3]
+_EncodingSb_Mbtowc      0x1004d4ad    0x2c  Code  Gb  xencoding_sb.o [3]
+_EncodingSb_Mbtowc::initial
+                        0x1004d4e0     0x8  Data  Lc  xencoding_sb.o [3]
+_EncodingSb_Wctomb      0x1004d499    0x14  Code  Gb  xencoding_sb.o [3]
+_EncodingSb_Wctomb::initial
+                        0x1004d4d8     0x8  Data  Lc  xencoding_sb.o [3]
+_FProut                 0x10052c89    0x18  Code  Gb  xfprout.o [3]
+_Files                  0x200003a0    0x20  Data  Gb  xfiles.o [3]
+_Fofind                 0x1004bf7d    0x4e  Code  Gb  xfofind.o [3]
+_Fofree                 0x1004bfcb    0x90  Code  Gb  xfofind.o [3]
+_Fopen                  0x1004d425    0x50  Code  Gb  xfopen.o [3]
+_Fopen::rwacc           0x1004d474    0x10  Data  Lc  xfopen.o [3]
+_Foprep                 0x1004c065    0xea  Code  Gb  xfoprep.o [3]
+_Foprep::init           0x1004c150    0x40  Data  Lc  xfoprep.o [3]
+_Fspos                  0x100513e1    0xe0  Code  Gb  xfspos.o [3]
+_Fwprep                 0x10051655    0xc0  Code  Gb  xfwprep.o [3]
+_GAP_Parse_Advertising_Report
+                        0x10051c59    0x60  Code  Lc  gap.o [5]
+_GenldLarge             0x1004b549   0x2c6  Code  Lc  xprintflarge.o [3]
+_IsdstStr               0x2000046c     0x4  Data  Gb  setlocale.o [3]
+_LdtobLarge             0x1004b2c5   0x24c  Code  Lc  xprintflarge.o [3]
+_LitobLarge             0x1004b159   0x12a  Code  Lc  xprintflarge.o [3]
+_LocaleEncoding         0x1004d485     0xc  Code  Gb  setlocale.o [3]
+_LocaleReturnString     0x2000048c    0x50  Data  Lc  setlocale.o [3]
+_Locale_Profile         0x20000470    0x1c  Data  Gb  setlocale.o [3]
+_Locale_aeabi_lconv     0x2000052c    0x38  Data  Gb  localeconv.o [3]
+_Locale_lconv           0x200004dc    0x50  Data  Gb  localeconv.o [3]
+_Mbtowc                 0x1004c481    0x1c  Code  Gb  xmbtowc.o [3]
+_Nnl                    0x100514c1     0xc  Code  Gb  xfgpos.o [3]
+_PrintfLarge            0x1004a765   0x666  Code  Gb  xprintflarge.o [3]
+_Prout                  0x10052ca1    0x16  Code  Gb  xprout.o [3]
+_PutcharsLarge          0x1004b813    0x30  Code  Lc  xprintflarge.o [3]
+_PutstrLarge            0x1004ae35   0x324  Code  Lc  xprintflarge.o [3]
+_SNProut                0x10052ad5    0x1c  Code  Gb  xsnprout.o [3]
+_TzoneStr               0x20000468     0x4  Data  Gb  setlocale.o [3]
+_Wctomb                 0x1004c4e3    0x18  Code  Gb  xwctomb.o [3]
+__ARM_common_switch8    0x10051f63    0x1a  Code  Gb  rom_ll_routines_support.o [5]
+__NVIC_SetPriority      0x1004f041    0x36  Code  Lc  system_bluenrg1.o [1]
+__aeabi_atexit          0x10048c6f     0xe  Code  Gb  cxxabi.o [4]
+__aeabi_cdcmple         0x1004c6e9          Code  Gb  DblCmpLe.o [6]
+__aeabi_d2uiz           0x1004c7dd          Code  Gb  DblToI32.o [6]
+__aeabi_ddiv            0x1004c71b          Code  Gb  DblDiv.o [6]
+__aeabi_dmul            0x1004c565          Code  Gb  DblMul.o [6]
+__aeabi_dsub            0x1004c8e7          Code  Gb  DblAddSub.o [6]
+__aeabi_errno_addr      0x10049c3d     0xa  Code  Gb  errno.o [3]
+__aeabi_f2d             0x1004a48d          Code  Gb  FltToDbl.o [6]
+__aeabi_fadd            0x1004a4bf          Code  Gb  FltAddSub.o [6]
+__aeabi_fmul            0x1004a3db          Code  Gb  FltMul.o [6]
+__aeabi_i2f             0x1004a3a9          Code  Gb  I32ToFlt.o [6]
+__aeabi_idiv            0x10043d5d          Code  Gb  I32DivModFast.o [7]
+__aeabi_idiv0           0x1004476d          Code  Gb  IntDivZer.o [7]
+__aeabi_idivmod         0x10043d5d          Code  Gb  I32DivModFast.o [7]
+__aeabi_ldiv0           0x1004d4e9          Code  Gb  I64DivZer.o [7]
+__aeabi_llsl            0x1004d675          Code  Gb  I64Shl.o [7]
+__aeabi_lmul            0x1004d699          Code  Gb  I64Mul.o [7]
+__aeabi_memclr          0x10044bb1          Code  Gb  ABImemset.o [7]
+__aeabi_memclr4         0x10044bb5          Code  Gb  ABImemset.o [7]
+__aeabi_memclr8         0x10044bb5          Code  Gb  ABImemset.o [7]
+__aeabi_memcpy          0x10044b05          Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy4         0x10044b2d          Code  Wk  ABImemcpy.o [7]
+__aeabi_memset          0x10044b61          Code  Gb  ABImemset.o [7]
+__aeabi_ui2d            0x1004c80d          Code  Gb  I32ToDbl.o [6]
+__aeabi_uidiv           0x10043d63          Code  Gb  I32DivModFast.o [7]
+__aeabi_uidivmod        0x10043d63          Code  Gb  I32DivModFast.o [7]
+__aeabi_uldivmod        0x1004c4fb          Code  Gb  I64DivMod.o [7]
+__aeabi_uread4          0x10043fa9          Code  Gb  uread4.o [7]
+__aeabi_vec_ctor_nocookie_nodtor
+                        0x10048c2f    0x22  Code  Gb  cxxabi.o [4]
+__aeabi_vec_dtor        0x10048c51    0x1e  Code  Gb  cxxabi.o [4]
+__blue_RAM              0x200000c0   0x20c  Data  Lc  system_bluenrg1.o [1]
+__blueflag_RAM          0x20000030     0x4  Data  Gb  system_bluenrg1.o [1]
+__call_ctors            0x10048ac1    0x18  Code  Gb  cppinit.o [3]
+__call_dtors            0x10048b15     0xa  Code  Gb  cppinit.o [3]
+__cexit_call_dtors      0x10052e79          Code  Gb  cexit.o [7]
+__cexit_clearlocks      0x10052e81          Code  Gb  cexit.o [7]
+__cexit_closeall        0x10052e7d          Code  Gb  cexit.o [7]
+__close                 0x100487b9    0x3c  Code  Gb  mbed_retarget.o [1]
+__cstart_call_dtors     0x10052ee8          Data  Gb  cstart_call_dtors.o [7]
+__cstart_clearlocks     0x10052ee8          Data  Gb  cstart_clearlocks.o [7]
+__cstart_closeall       0x10052ee8          Data  Gb  cstart_closeall.o [7]
+__cxa_atexit            0x10048ad9    0x3c  Code  Gb  cppinit.o [3]
+__cxa_finalize          0x10048b1f    0x38  Code  Gb  cppinit.o [3]
+__cxa_guard_acquire     0x1004a62d    0x1a  Code  Gb  cxxabiguard.o [4]
+__cxa_guard_release     0x1004a647    0x10  Code  Gb  cxxabiguard.o [4]
+__cxa_pure_virtual      0x10052ed1     0x8  Code  Gb  xpurevirtual.o [3]
+__data_GetMemChunk      0x10046789    0x2c  Code  Gb  xgetmemchunk.o [3]
+__data_GetMemChunk::start
+                        0x20002c08     0x4  Data  Lc  xgetmemchunk.o [3]
+__dso_handle            0x20002c04     0x4  Data  Gb  cppinit.o [3]
+__exit                  0x100467f1          Code  Gb  XXexit.o [7]
+__iar_Errno             0x20000464     0x4  Data  Gb  errno.o [3]
+__iar_ForwardingLockFunctions {Abs}
+                        0x00000000           --   Gb  xsyslock.o [3]
+__iar_Locale_lconv_init
+                        0x1004c9d5    0x32  Code  Gb  localeconv.o [3]
+__iar_Lockfilelock_mtx  0x100468db    0x2c  Code  Gb  xsyslock_mtx.o [3]
+__iar_Locksyslock_Malloc
+                        0x100467b5     0xa  Code  Gb  xsyslock.o [3]
+__iar_Locksyslock_StaticGuard
+                        0x100467c9     0xa  Code  Gb  xsyslock.o [3]
+__iar_Locksyslock_Stream
+                        0x100467bf     0xa  Code  Gb  xsyslock.o [3]
+__iar_Locksyslock_mtx   0x10046923    0x24  Code  Gb  xsyslock_mtx.o [3]
+__iar_Mbcurmax          0x1004c4d9     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x1004c4c1    0x18  Code  Gb  memchr.o [7]
+__iar_Memset4_word      0x10044b81          Code  Gb  ABImemset.o [7]
+__iar_Memset_word       0x10044b6d          Code  Gb  ABImemset.o [7]
+__iar_Stderr            0x20000360    0x40  Data  Gb  xfiles.o [3]
+__iar_Stdin             0x200002e0    0x40  Data  Gb  xfiles.o [3]
+__iar_Stdout            0x20000320    0x40  Data  Gb  xfiles.o [3]
+__iar_Strchr            0x1004c49d    0x14  Code  Gb  strchr.o [7]
+__iar_Unlockfilelock_mtx
+                        0x10046907    0x1c  Code  Gb  xsyslock_mtx.o [3]
+__iar_Unlocksyslock_Malloc
+                        0x100467d3     0xa  Code  Gb  xsyslock.o [3]
+__iar_Unlocksyslock_StaticGuard
+                        0x100467e7     0xa  Code  Gb  xsyslock.o [3]
+__iar_Unlocksyslock_Stream
+                        0x100467dd     0xa  Code  Gb  xsyslock.o [3]
+__iar_Unlocksyslock_mtx
+                        0x10046947    0x16  Code  Gb  xsyslock_mtx.o [3]
+__iar_clearlocks        0x100467fd    0x72  Code  Gb  xsyslock_mtx.o [3]
+__iar_d2uiz             0x1004c7e1          Code  Gb  DblToI32.o [6]
+__iar_data_init3        0x10047fd5    0x28  Code  Gb  data_init.o [7]
+__iar_dlfree            0x100461a5   0x5ce  Code  Gb  dlmalloc.o [3]
+__iar_dlib_perthread_access
+                        0x1004be21     0x2  Code  Gb  xtls.o [3]
+__iar_dlmalloc          0x10045ead   0x2f4  Code  Gb  dlmalloc.o [3]
+__iar_dynamic_initialization
+                        0x10047bc1    0x1c  Code  Gb  dynamic_init.o [7]
+__iar_file_Mtxdst       0x10046b01     0x2  Code  Gb  mbed_boot.o [1]
+__iar_file_Mtxinit      0x10046a7d    0x56  Code  Gb  mbed_boot.o [1]
+__iar_file_Mtxlock      0x10046b13     0x2  Code  Gb  mbed_boot.o [1]
+__iar_file_Mtxunlock    0x10046b23     0x2  Code  Gb  mbed_boot.o [1]
+__iar_packbits_init_single3
+                        0x100522f9    0x3c  Code  Gb  packbits_init_single.o [7]
+__iar_program_start     0x100469cf    0x3e  Code  Gb  mbed_boot.o [1]
+__iar_system_Mtxdst     0x10046a6f     0x4  Code  Gb  mbed_boot.o [1]
+__iar_system_Mtxinit    0x10046a0d    0x62  Code  Gb  mbed_boot.o [1]
+__iar_system_Mtxlock    0x10046a73     0x4  Code  Gb  mbed_boot.o [1]
+__iar_system_Mtxunlock  0x10046a77     0x4  Code  Gb  mbed_boot.o [1]
+__iar_ui2d              0x1004c811          Code  Gb  I32ToDbl.o [6]
+__iar_ui2f              0x1004a3c1          Code  Gb  I32ToFlt.o [6]
+__iar_zero_init3        0x100522bd    0x3c  Code  Gb  zero_init3.o [7]
+__low_level_init        0x10047fd1     0x4  Code  Gb  low_level_init.o [3]
+__lseek                 0x100488cd    0x3c  Code  Gb  mbed_retarget.o [1]
+__open                  0x100485d9   0x1c6  Code  Gb  mbed_retarget.o [1]
+__stderr_name           0x100487b0     0x8  Data  Gb  mbed_retarget.o [1]
+__stdin_name            0x100487a0     0x8  Data  Gb  mbed_retarget.o [1]
+__stdout_name           0x100487a8     0x8  Data  Gb  mbed_retarget.o [1]
+__sti__routine          0x10047bdd    0x92  Code  Lc  main.o [1]
+__vector_table          0x10040000          Data  Gb  startup_bluenrg1.o [1]
+__write                 0x100487f9    0x90  Code  Gb  mbed_retarget.o [1]
+_gm_                    0x20002270   0x1d8  Data  Lc  dlmalloc.o [3]
+_gpio_init_out          0x10048b65    0x30  Code  Lc  mbed_gpio.o [1]
+_main_obj               0x2000073c    0x48  Data  Gb  mbed_boot.o [1]
+_main_stack             0x20000788  0x1000  Data  Gb  mbed_boot.o [1]
+_main_thread_attr       0x20000718    0x24  Data  Gb  mbed_boot.o [1]
+abort                   0x1004677d     0xa  Code  Gb  abort.o [3]
+accCharHandle           0x200029ec     0x2  Data  Gb  gatt_db.o [1]
+accServHandle           0x200029e8     0x2  Data  Gb  gatt_db.o [1]
+aci_att_exchange_mtu_resp_event
+                        0x100528f1     0x2  Code  Wk  aci_events.o [5]
+aci_att_exchange_mtu_resp_event_cb
+                        0x100528d1    0x1c  Code  Gb  aci_events.o [5]
+aci_att_exec_write_resp_event
+                        0x10052b0d     0x2  Code  Wk  aci_events.o [5]
+aci_att_exec_write_resp_event_cb
+                        0x10052af1    0x18  Code  Gb  aci_events.o [5]
+aci_att_find_by_type_value_resp_event
+                        0x10052565     0x2  Code  Wk  aci_events.o [5]
+aci_att_find_by_type_value_resp_event_cb
+                        0x10052541    0x1e  Code  Gb  aci_events.o [5]
+aci_att_find_info_resp_event
+                        0x1005258d     0x2  Code  Wk  aci_events.o [5]
+aci_att_find_info_resp_event_cb
+                        0x10052569    0x20  Code  Gb  aci_events.o [5]
+aci_att_prepare_write_resp_event
+                        0x1005244d     0x2  Code  Wk  aci_events.o [5]
+aci_att_prepare_write_resp_event_cb
+                        0x10052425    0x24  Code  Gb  aci_events.o [5]
+aci_att_read_blob_resp_event
+                        0x100525b5     0x2  Code  Wk  aci_events.o [5]
+aci_att_read_blob_resp_event_cb
+                        0x10052591    0x1e  Code  Gb  aci_events.o [5]
+aci_att_read_by_group_type_resp_event
+                        0x100525dd     0x2  Code  Wk  aci_events.o [5]
+aci_att_read_by_group_type_resp_event_cb
+                        0x100525b9    0x20  Code  Gb  aci_events.o [5]
+aci_att_read_by_type_resp_event
+                        0x10052605     0x2  Code  Wk  aci_events.o [5]
+aci_att_read_by_type_resp_event_cb
+                        0x100525e1    0x20  Code  Gb  aci_events.o [5]
+aci_att_read_multiple_resp_event
+                        0x1005262d     0x2  Code  Wk  aci_events.o [5]
+aci_att_read_multiple_resp_event_cb
+                        0x10052609    0x1e  Code  Gb  aci_events.o [5]
+aci_att_read_resp_event
+                        0x10052655     0x2  Code  Wk  aci_events.o [5]
+aci_att_read_resp_event_cb
+                        0x10052631    0x1e  Code  Gb  aci_events.o [5]
+aci_att_write_resp_event
+                        0x1005267d     0x2  Code  Wk  aci_events.o [5]
+aci_att_write_resp_event_cb
+                        0x10052659    0x1e  Code  Gb  aci_events.o [5]
+aci_event_fifo_push     0x10044509    0x24  Code  Gb  aci_events.o [5]
+aci_event_fifo_push_header
+                        0x10044441    0xc4  Code  Gb  aci_events.o [5]
+aci_gap_addr_not_resolved_event
+                        0x10052b2d     0x2  Code  Wk  aci_events.o [5]
+aci_gap_addr_not_resolved_event_cb
+                        0x10052b11    0x18  Code  Gb  aci_events.o [5]
+aci_gap_authorization_req_event
+                        0x10052b4d     0x2  Code  Wk  aci_events.o [5]
+aci_gap_authorization_req_event_cb
+                        0x10052b31    0x18  Code  Gb  aci_events.o [5]
+aci_gap_authorization_req_event_push
+                        0x1005139d    0x40  Code  Lc  sm_common.o [5]
+aci_gap_bond_lost_event
+                        0x10052b6d     0x2  Code  Wk  aci_events.o [5]
+aci_gap_bond_lost_event_cb
+                        0x10052b51    0x16  Code  Gb  aci_events.o [5]
+aci_gap_device_found_event
+                        0x10052915     0x2  Code  Wk  aci_events.o [5]
+aci_gap_device_found_event_cb
+                        0x100528f5    0x1a  Code  Gb  aci_events.o [5]
+aci_gap_keypress_notification_event
+                        0x10052939     0x2  Code  Wk  aci_events.o [5]
+aci_gap_keypress_notification_event_cb
+                        0x10052919    0x1c  Code  Gb  aci_events.o [5]
+aci_gap_limited_discoverable_event
+                        0x10052b8d     0x2  Code  Wk  aci_events.o [5]
+aci_gap_limited_discoverable_event_cb
+                        0x10052b71    0x16  Code  Gb  aci_events.o [5]
+aci_gap_numeric_comparison_value_event
+                        0x1005295d     0x2  Code  Wk  aci_events.o [5]
+aci_gap_numeric_comparison_value_event_cb
+                        0x1005293d    0x1c  Code  Gb  aci_events.o [5]
+aci_gap_pairing_complete_event
+                        0x100526a5     0x2  Code  Wk  aci_events.o [5]
+aci_gap_pairing_complete_event_cb
+                        0x10052681    0x1e  Code  Gb  aci_events.o [5]
+aci_gap_pairing_complete_event_push
+                        0x10051351    0x48  Code  Lc  sm_common.o [5]
+aci_gap_pass_key_req_event
+                        0x10052bad     0x2  Code  Wk  aci_events.o [5]
+aci_gap_pass_key_req_event_cb
+                        0x10052b91    0x18  Code  Gb  aci_events.o [5]
+aci_gap_proc_complete_event
+                        0x100526cd     0x2  Code  Wk  aci_events.o [5]
+aci_gap_proc_complete_event_cb
+                        0x100526a9    0x20  Code  Gb  aci_events.o [5]
+aci_gap_proc_complete_event_push
+                        0x10051cbd    0x60  Code  Lc  gap.o [5]
+aci_gap_slave_security_initiated_event
+                        0x10052bcd     0x2  Code  Wk  aci_events.o [5]
+aci_gap_slave_security_initiated_event_cb
+                        0x10052bb1    0x16  Code  Gb  aci_events.o [5]
+aci_gatt_allow_read     0x1005183d     0xc  Code  Gb  bluenrg_gatt_aci.o [5]
+aci_gatt_attribute_modified_event
+                        0x10051781     0x2  Code  Gb  Blue1.o [1]
+aci_gatt_attribute_modified_event_cb
+                        0x10052451    0x24  Code  Gb  aci_events.o [5]
+aci_gatt_disc_read_char_by_uuid_resp_event
+                        0x100526f5     0x2  Code  Wk  aci_events.o [5]
+aci_gatt_disc_read_char_by_uuid_resp_event_cb
+                        0x100526d1    0x20  Code  Gb  aci_events.o [5]
+aci_gatt_error_resp_event
+                        0x1005271d     0x2  Code  Wk  aci_events.o [5]
+aci_gatt_error_resp_event_cb
+                        0x100526f9    0x20  Code  Gb  aci_events.o [5]
+aci_gatt_indication_event
+                        0x10052745     0x2  Code  Wk  aci_events.o [5]
+aci_gatt_indication_event_cb
+                        0x10052721    0x20  Code  Gb  aci_events.o [5]
+aci_gatt_notification_event
+                        0x1005276d     0x2  Code  Wk  aci_events.o [5]
+aci_gatt_notification_event_cb
+                        0x10052749    0x20  Code  Gb  aci_events.o [5]
+aci_gatt_prepare_write_permit_req_event
+                        0x10052cdf     0x2  Code  Wk  aci_events.o [5]
+aci_gatt_prepare_write_permit_req_event_cb
+                        0x10052cc9    0x16  Code  Gb  aci_events.o [5]
+aci_gatt_proc_complete_event
+                        0x10052981     0x2  Code  Wk  aci_events.o [5]
+aci_gatt_proc_complete_event_cb
+                        0x10052961    0x1c  Code  Gb  aci_events.o [5]
+aci_gatt_proc_timeout_event
+                        0x10052bed     0x2  Code  Wk  aci_events.o [5]
+aci_gatt_proc_timeout_event_cb
+                        0x10052bd1    0x18  Code  Gb  aci_events.o [5]
+aci_gatt_read_multi_permit_req_event
+                        0x10052e25     0x2  Code  Wk  aci_events.o [5]
+aci_gatt_read_multi_permit_req_event_cb
+                        0x10052e15    0x10  Code  Gb  aci_events.o [5]
+aci_gatt_read_multi_permit_req_event_push
+                        0x1004e1ff    0x50  Code  Lc  att.o [5]
+aci_gatt_read_permit_req_event
+                        0x1005176d    0x10  Code  Gb  Blue1.o [1]
+aci_gatt_read_permit_req_event_cb
+                        0x10052e27    0x10  Code  Gb  aci_events.o [5]
+aci_gatt_read_permit_req_event_push
+                        0x100503ed    0x38  Code  Lc  att.o [5]
+aci_gatt_server_confirmation_event
+                        0x10052e9b     0x2  Code  Wk  aci_events.o [5]
+aci_gatt_server_confirmation_event_cb
+                        0x10052e91     0xa  Code  Gb  aci_events.o [5]
+aci_gatt_tx_pool_available_event
+                        0x10052e45     0x2  Code  Wk  aci_events.o [5]
+aci_gatt_tx_pool_available_event_cb
+                        0x10052e37     0xe  Code  Gb  aci_events.o [5]
+aci_gatt_update_char_value
+                        0x10051829    0x14  Code  Gb  bluenrg_gatt_aci.o [5]
+aci_gatt_write_permit_req_event
+                        0x10052d63     0x2  Code  Wk  aci_events.o [5]
+aci_gatt_write_permit_req_event_cb
+                        0x10052d51    0x12  Code  Gb  aci_events.o [5]
+aci_hal_scan_req_report_event
+                        0x10052795     0x2  Code  Wk  aci_events.o [5]
+aci_hal_scan_req_report_event_cb
+                        0x10052771    0x1e  Code  Gb  aci_events.o [5]
+aci_l2cap_command_reject_event
+                        0x10052cf7     0x2  Code  Wk  aci_events.o [5]
+aci_l2cap_command_reject_event_cb
+                        0x10052ce1    0x16  Code  Gb  aci_events.o [5]
+aci_l2cap_connection_update_req_event
+                        0x100523c9     0x2  Code  Wk  aci_events.o [5]
+aci_l2cap_connection_update_req_event_cb
+                        0x10052399    0x2c  Code  Gb  aci_events.o [5]
+aci_l2cap_connection_update_req_event_push
+                        0x1004fd81    0x82  Code  Lc  l2cap.o [5]
+aci_l2cap_connection_update_resp_event
+                        0x100529a5     0x2  Code  Wk  aci_events.o [5]
+aci_l2cap_connection_update_resp_event_cb
+                        0x10052985    0x1c  Code  Gb  aci_events.o [5]
+aci_l2cap_proc_timeout_event
+                        0x100529c9     0x2  Code  Wk  aci_events.o [5]
+aci_l2cap_proc_timeout_event_cb
+                        0x100529a9    0x1c  Code  Gb  aci_events.o [5]
+acl_list_get_pckt_count
+                        0x1004e685     0x4  Code  Gb  acl_list.o [5]
+acl_list_insert_tail    0x1004e6a9    0x20  Code  Gb  acl_list.o [5]
+acl_list_is_empty       0x1004e675    0x10  Code  Gb  acl_list.o [5]
+acl_list_remove         0x10050c1d    0x20  Code  Gb  acl_list.o [5]
+acl_list_remove_head    0x1004e689    0x20  Code  Gb  acl_list.o [5]
+actuatedLED             0x20002594     0x8  Data  Gb  main.o [1]
+advance_slave_timing_MultiSlave
+                        0x10042b69   0x438  Code  Gb  multi_master_time.o [5]
+advance_wakeup_timer    0x100417f9   0x4c4  Code  Gb  advance_wakeup_time.o [5]
+alivenessLED            0x2000258c     0x8  Data  Gb  main.o [1]
+anchor_replace          0x10043169    0x4a  Code  Gb  multi_master_time.o [5]
+app_base                0x20000010     0x4  Data  Gb  system_bluenrg1.o [1]
+app_base_block$$Base    0x20000010           --   Gb  - Linker created -
+app_base_block$$Limit   0x20000014           --   Gb  - Linker created -
+b                       0x20002be8     0x4  Data  Gb  us_ticker_api.o [1]
+bleBaseUuid             0x10052d64    0x10  Data  Gb  att.o [5]
+bleInitComplete(BLE::InitializationCompleteCallbackContext *)
+                        0x10047d19   0x14c  Code  Gb  main.o [1]
+blinkCallback()         0x10047c81    0x18  Code  Gb  main.o [1]
+cancel_current_master   0x1004269d   0x198  Code  Gb  multi_master_time.o [5]
+cancel_master           0x10043c31    0xf8  Code  Gb  rom_ll_isr_routines.o [5]
+cancel_slave            0x10043e11    0x8e  Code  Gb  isr_routines.o [5]
+carry                   0x20002be4     0x4  Data  Gb  us_ticker_api.o [1]
+char_copy               0x100428d7    0x12  Code  Gb  hal.o [5]
+char_desc_uuid          0x20002a14    0x10  Data  Gb  gatt_db.o [1]
+char_uuid               0x20002a04    0x10  Data  Gb  gatt_db.o [1]
+compute_tick            0x1004d299    0x6a  Code  Lc  mbed_ticker_api.o [1]
+connection_handle       0x200002d0     0x2  Data  Gb  Blue1.o [1]
+core_util_are_interrupts_enabled
+                        0x100498ed     0xe  Code  Gb  mbed_critical.o [1]
+core_util_critical_section_enter
+                        0x10049909    0x58  Code  Wk  mbed_critical.o [1]
+core_util_critical_section_exit
+                        0x10049ab1    0x40  Code  Wk  mbed_critical.o [1]
+core_util_is_isr_active
+                        0x100498fb     0xe  Code  Gb  mbed_critical.o [1]
+createBLEInstance()     0x1004a61d    0x10  Code  Wk  BLE.o [1]
+critical_interrupts_disabled
+                        0x20002bcc     0x1  Data  Lc  mbed_critical.o [1]
+default_idle_hook()     0x100498a1    0x14  Code  Lc  mbed_rtx_idle.o [1]
+disconnectionCallback(Gap::DisconnectionCallbackParams_t const *)
+                        0x10047c6f    0x12  Code  Gb  main.o [1]
+div                     0x1004ca3d    0x20  Code  Gb  div.o [3]
+ebuf                    0x200027a4    0x50  Data  Lc  xfiles.o [3]
+encrypt                 0x100441f5    0x88  Code  Gb  rom_ll_routines_support.o [5]
+envSensServHandle       0x200029ee     0x2  Data  Gb  gatt_db.o [1]
+equeue_alloc            0x100494f1    0x82  Code  Gb  equeue.o [1]
+equeue_create           0x1004941d    0x24  Code  Gb  equeue.o [1]
+equeue_create_inplace   0x10049441    0x5e  Code  Gb  equeue.o [1]
+equeue_dealloc          0x10049573    0x58  Code  Gb  equeue.o [1]
+equeue_destroy          0x1004949f    0x52  Code  Gb  equeue.o [1]
+equeue_dispatch         0x100496af   0x186  Code  Gb  equeue.o [1]
+equeue_enqueue          0x100495cb    0xa6  Code  Lc  equeue.o [1]
+equeue_event_delay      0x10049835     0x6  Code  Gb  equeue.o [1]
+equeue_event_dtor       0x10049841     0x6  Code  Gb  equeue.o [1]
+equeue_event_period     0x1004983b     0x6  Code  Gb  equeue.o [1]
+equeue_minutes          0x20002b80     0x4  Data  Lc  equeue_mbed.o [1]
+equeue_mutex_create     0x1004baa9     0x4  Code  Gb  equeue_mbed.o [1]
+equeue_mutex_destroy    0x1004baad     0x2  Code  Gb  equeue_mbed.o [1]
+equeue_mutex_lock       0x1004baaf     0x8  Code  Gb  equeue_mbed.o [1]
+equeue_mutex_unlock     0x1004bab7     0x8  Code  Gb  equeue_mbed.o [1]
+equeue_post             0x1004967d    0x32  Code  Gb  equeue.o [1]
+equeue_sema_create      0x1004babf    0x32  Code  Gb  equeue_mbed.o [1]
+equeue_sema_destroy     0x1004baf1     0xa  Code  Gb  equeue_mbed.o [1]
+equeue_sema_signal      0x1004bafb     0xc  Code  Gb  equeue_mbed.o [1]
+equeue_sema_wait        0x1004bb07    0x1e  Code  Gb  equeue_mbed.o [1]
+equeue_tick             0x1004b9d5    0xc4  Code  Gb  equeue_mbed.o [1]
+equeue_tick_inited      0x20002964     0x1  Data  Lc  equeue_mbed.o [1]
+equeue_tick_update()    0x1004b9bd    0x18  Code  Lc  equeue_mbed.o [1]
+equeue_ticker           0x20002924    0x40  Data  Lc  equeue_mbed.o [1]
+equeue_timer            0x20002b84    0x20  Data  Lc  equeue_mbed.o [1]
+error                   0x10047431    0x28  Code  Wk  mbed_error.o [1]
+error_in_progress       0x20002965     0x1  Data  Lc  mbed_error.o [1]
+eventQueue              0x2000263c    0x60  Data  Lc  main.o [1]
+events                  0x20002968    0x40  Data  Lc  mbed_us_ticker_api.o [1]
+events::EventQueue::EventQueue(unsigned int, unsigned char *)
+                        0x10048fdd    0x2c  Code  Gb  EventQueue.o [1]
+events::EventQueue::dispatch(int)
+                        0x10049023     0x8  Code  Gb  EventQueue.o [1]
+events::EventQueue::~EventQueue()
+                        0x10049009     0x2  Code  Gb  EventQueue.o [1]
+evnt_callback_pfunc     0x10050a10    0xe0  Data  Gb  aci_events.o [5]
+exit                    0x1004894d     0xa  Code  Gb  mbed_retarget.o [1]
+fclose                  0x1004c1f9    0x7e  Code  Gb  fclose.o [3]
+fflush                  0x1004c2ed    0x38  Code  Gb  fflush.o [3]
+fflushOne               0x1004c279    0x74  Code  Lc  fflush.o [3]
+fifoBuf_getFreeHeader   0x10044be1    0x6a  Code  Lc  aci_events.o [5]
+file_mtx                0x20002a64    0x20  Data  Lc  xsyslock_mtx.o [3]
+filehandle_mutex        0x2000277c    0x28  Data  Lc  mbed_retarget.o [1]
+filehandles             0x2000273c    0x40  Data  Lc  mbed_retarget.o [1]
+fopen                   0x10049e95    0x2a  Code  Gb  fopen.o [3]
+fputc                   0x10052105    0x56  Code  Gb  fputc.o [3]
+freeFallCharHandle      0x200029ea     0x2  Data  Gb  gatt_db.o [1]
+fseek                   0x10051715    0x22  Code  Gb  fseek.o [3]
+getGpioPin              0x1004a759     0xc  Code  Gb  pin_device.o [1]
+get_adv_addr            0x100423b1    0x2c  Code  Gb  rom_ll_isr_routines.o [5]
+get_connection_no       0x10050099    0x80  Code  Gb  multi_master_time.o [5]
+get_scan_addr           0x10041ccd    0x2e  Code  Gb  rom_ll_isr_routines.o [5]
+get_us_ticker_data      0x1004d079     0x4  Code  Gb  mbed_us_ticker_api.o [1]
+go_to_connect           0x10042425   0x25c  Code  Gb  rom_ll_isr_routines.o [5]
+go_to_connect_master    0x10042fb1   0x182  Code  Gb  isr_routines.o [5]
+gpio_dir                0x10049207    0x1e  Code  Gb  gpio_api.o [1]
+gpio_init               0x1004923f    0x22  Code  Gb  gpio_api.o [1]
+gpio_init_out           0x10048b95     0xc  Code  Gb  mbed_gpio.o [1]
+gpio_init_out_ex        0x10048ba1    0x2e  Code  Gb  mbed_gpio.o [1]
+gpio_mode               0x100491e9    0x1e  Code  Gb  gpio_api.o [1]
+gpio_read               0x10049261    0x12  Code  Gb  gpio_api.o [1]
+gpio_write              0x1004922f    0x10  Code  Gb  gpio_api.o [1]
+hci_acl_data_ind_event_int_cb
+                        0x10050f19    0xdc  Code  Gb  acl.o [5]
+hci_acl_data_tx_cmpl_event_int_cb
+                        0x10051945    0x90  Code  Gb  acl.o [5]
+hci_data_buffer_overflow_event_cb
+                        0x1004bf7b     0x2  Code  Gb  aci_events.o [5]
+hci_disconnection_complete_event
+                        0x10051755    0x18  Code  Gb  Blue1.o [1]
+hci_disconnection_complete_event_cb
+                        0x100529cd    0x1c  Code  Gb  aci_events.o [5]
+hci_disconnection_complete_event_int_cb
+                        0x100524cd    0x26  Code  Gb  aci_events.o [5]
+hci_encryption_change_event
+                        0x10052a0d     0x2  Code  Wk  aci_events.o [5]
+hci_encryption_change_event_cb
+                        0x100529ed    0x1c  Code  Gb  aci_events.o [5]
+hci_encryption_change_event_int_cb
+                        0x10052bef    0x1a  Code  Gb  aci_events.o [5]
+hci_encryption_change_event_push
+                        0x100443cd    0x46  Code  Lc  ll_routines_master.o [5]
+hci_encryption_key_refresh_complete_event
+                        0x10052a31     0x2  Code  Wk  aci_events.o [5]
+hci_encryption_key_refresh_complete_event_cb
+                        0x10052a11    0x1a  Code  Gb  aci_events.o [5]
+hci_encryption_key_refresh_complete_event_int_cb
+                        0x10052c09    0x1a  Code  Gb  aci_events.o [5]
+hci_encryption_key_refresh_complete_event_push
+                        0x10044385    0x42  Code  Lc  ll_routines_master.o [5]
+hci_le_advertising_report_event
+                        0x10052a55     0x2  Code  Wk  aci_events.o [5]
+hci_le_advertising_report_event_cb
+                        0x10052a35    0x1c  Code  Gb  aci_events.o [5]
+hci_le_advertising_report_event_int_cb
+                        0x10052a7b    0x1e  Code  Gb  aci_events.o [5]
+hci_le_advertising_report_event_push
+                        0x100445fd    0x7c  Code  Lc  ll_routines_master.o [5]
+hci_le_connection_complete_event
+                        0x10051741    0x14  Code  Gb  Blue1.o [1]
+hci_le_connection_complete_event_cb
+                        0x10052241    0x3a  Code  Gb  aci_events.o [5]
+hci_le_connection_complete_event_int_cb
+                        0x100524f3    0x26  Code  Gb  aci_events.o [5]
+hci_le_connection_complete_event_push
+                        0x1004430d    0x72  Code  Lc  ll_routines_master.o [5]
+hci_le_connection_update_complete_event
+                        0x100523f9     0x2  Code  Wk  aci_events.o [5]
+hci_le_connection_update_complete_event_cb
+                        0x100523cd    0x28  Code  Gb  aci_events.o [5]
+hci_le_connection_update_complete_event_push
+                        0x10044531    0x54  Code  Lc  ll_routines_master.o [5]
+hci_le_direct_advertising_report_event
+                        0x10052a79     0x2  Code  Wk  aci_events.o [5]
+hci_le_direct_advertising_report_event_cb
+                        0x10052a59    0x1c  Code  Gb  aci_events.o [5]
+hci_le_direct_advertising_report_event_int_cb
+                        0x10052a99    0x1e  Code  Gb  aci_events.o [5]
+hci_le_direct_advertising_report_event_push
+                        0x10044589    0x6e  Code  Lc  ll_routines_master.o [5]
+hci_le_enhanced_connection_complete_event
+                        0x100521a5     0x2  Code  Wk  aci_events.o [5]
+hci_le_enhanced_connection_complete_event_cb
+                        0x1005215d    0x44  Code  Gb  aci_events.o [5]
+hci_le_enhanced_connection_complete_event_int_cb
+                        0x10052519    0x26  Code  Gb  aci_events.o [5]
+hci_le_enhanced_connection_complete_event_push
+                        0x1004427d    0x8c  Code  Lc  ll_routines_master.o [5]
+hci_le_generate_dhkey_complete_event
+                        0x100527bd     0x2  Code  Wk  aci_events.o [5]
+hci_le_generate_dhkey_complete_event_cb
+                        0x10052799    0x1e  Code  Gb  aci_events.o [5]
+hci_le_generate_dhkey_complete_event_int_cb
+                        0x10052c23    0x1a  Code  Gb  aci_events.o [5]
+hci_le_long_term_key_request_event
+                        0x100527e5     0x2  Code  Wk  aci_events.o [5]
+hci_le_long_term_key_request_event_cb
+                        0x100527c1    0x20  Code  Gb  aci_events.o [5]
+hci_le_long_term_key_request_event_int_cb
+                        0x10052e85     0xc  Code  Gb  aci_events.o [5]
+hci_le_read_local_p256_public_key_complete_event
+                        0x1005280d     0x2  Code  Wk  aci_events.o [5]
+hci_le_read_local_p256_public_key_complete_event_cb
+                        0x100527e9    0x1e  Code  Gb  aci_events.o [5]
+hci_le_read_local_p256_public_key_complete_event_int_cb
+                        0x10052c3d    0x1a  Code  Gb  aci_events.o [5]
+hci_le_read_remote_used_features_complete_event
+                        0x100524a1     0x2  Code  Wk  aci_events.o [5]
+hci_le_read_remote_used_features_complete_event_cb
+                        0x10052479    0x22  Code  Gb  aci_events.o [5]
+hci_number_of_completed_packets_event
+                        0x10052ea7     0x2  Code  Wk  aci_events.o [5]
+hci_number_of_completed_packets_event_cb
+                        0x10052e9d     0xa  Code  Gb  aci_events.o [5]
+hci_read_remote_version_information_complete_event
+                        0x10052835     0x2  Code  Wk  aci_events.o [5]
+hci_read_remote_version_information_complete_event_cb
+                        0x10052811    0x20  Code  Gb  aci_events.o [5]
+hci_rx_acl_data         0x10050ffd    0x5a  Code  Gb  hci.o [5]
+hci_rx_acl_data_event   0x10052d0f     0x4  Code  Wk  aci_events.o [5]
+hci_rx_acl_data_event_cb
+                        0x10052cf9    0x16  Code  Gb  aci_events.o [5]
+hci_tx_acl_data_done    0x100519dd    0x34  Code  Gb  hci.o [5]
+idle_hook_fptr          0x200002d8     0x4  Data  Lc  mbed_rtx_idle.o [1]
+imu                     0x20002634     0x8  Data  Gb  main.o [1]
+init_mparams            0x100450e1    0x2a  Code  Lc  dlmalloc.o [3]
+init_top                0x1004510b    0x38  Code  Lc  dlmalloc.o [3]
+initialize              0x1004d085    0xde  Code  Lc  mbed_ticker_api.o [1]
+initlocks               0x1004686f    0x6c  Code  Lc  xsyslock_mtx.o [3]
+int_evnt_callback_pfunc
+                        0x10050af0    0x30  Data  Gb  aci_events.o [5]
+interrupt_enable_counter
+                        0x20002bd0     0x4  Data  Lc  mbed_critical.o [1]
+irq_handler             0x20002bdc     0x4  Data  Lc  serial_api.o [1]
+is_slave                0x10044121    0x2e  Code  Gb  multi_master_time.o [5]
+isr_event_handler_patched
+                        0x10043229   0x8ac  Code  Gb  ll_routines_master.o [5]
+isr_postproc            0x10043ae5   0x130  Code  Gb  isr_postproc.o [5]
+isr_postproc1           0x100429ad   0x142  Code  Gb  rom_ll_isr_postproc.o [5]
+isr_postproc_encrypt_data
+                        0x10043153    0x16  Code  Gb  rom_ll_isr_postproc.o [5]
+ledServicePtr           0x20002588     0x4  Data  Gb  main.o [1]
+localeconv              0x1004ca07    0x18  Code  Gb  localeconv.o [3]
+low_level_init_needed   0x20002a24     0x1  Data  Lc  mbed_boot.o [1]
+machine_time_trans      0x10042839    0x1c  Code  Gb  rom_ll_timehandling.o [5]
+main                    0x10047ec9    0x96  Code  Gb  main.o [1]
+mbed::Callback<void ()>::Callback(const mbed::Callback<void ()>&)
+                        0x10049847    0x18  Code  Gb  Ticker.o [1]
+mbed::Callback<void ()>::Callback(void (*)())
+                        0x1004c191    0x30  Code  Gb  Ticker.o [1]
+mbed::Callback<void ()>::Callback<BLE, BLE>(BLE *, void (BLE::*)())
+                        0x100493ed    0x30  Code  Gb  main.o [1]
+mbed::Callback<void ()>::call() const::string
+                        0x10052eb0     0x8  Data  Gb  Timeout.o [1]
+mbed::Callback<void ()>::call() const::string (instance 2)
+                        0x10052280    0x3c  Data  Gb  ATCmdParser.o [1]
+mbed::Callback<void ()>::method_context<BLE, void (BLE::*)()>::method_context(BLE *, void (BLE::*)())
+                        0x1004b9b3     0x8  Code  Gb  main.o [1]
+mbed::Callback<void ()>::operator =(const mbed::Callback<void ()>&)
+                        0x1004c1d3    0x1e  Code  Gb  SerialBase.o [1]
+mbed::Callback<void ()>::~Callback()
+                        0x1004c1c1    0x12  Code  Gb  SerialBase.o [1]
+mbed::Callback<void (int)>::Callback(void (*)(int))
+                        0x1004a5d5    0x30  Code  Gb  EventQueue.o [1]
+mbed::FileBase::FileBase(char const *, mbed::PathType)
+                        0x1004be35    0x3e  Code  Gb  FileBase.o [1]
+mbed::FileBase::FileBase(char const *, mbed::PathType) [subobject]
+                        0x1004be25     0x8  Code  Gb  FileBase.o [1]
+mbed::FileBase::_head   0x20002b2c     0x4  Data  Gb  FileBase.o [1]
+mbed::FileBase::_mutex  0x20002b30    0x28  Data  Gb  FileBase.o [1]
+mbed::FileBase::getPathType()
+                        0x1004bf25     0x4  Code  Gb  FileBase.o [1]
+mbed::FileBase::lookup(char const *, unsigned int)
+                        0x1004bec3    0x58  Code  Gb  FileBase.o [1]
+mbed::FileBase::~FileBase()
+                        0x1004be73    0x50  Code  Gb  FileBase.o [1]
+mbed::FileBase::~FileBase() [subobject]
+                        0x1004be2d     0x8  Code  Gb  FileBase.o [1]
+mbed::FileHandle::isatty()
+                        0x10052ee1     0x4  Code  Gb  Stream.o [1]
+mbed::FilePath::FilePath(char const *)
+                        0x10049c4d    0x40  Code  Gb  FilePath.o [1]
+mbed::FilePath::exists()
+                        0x10049ce7     0xa  Code  Gb  FilePath.o [1]
+mbed::FilePath::file()  0x10049cc7    0x20  Code  Gb  FilePath.o [1]
+mbed::FilePath::fileName()
+                        0x10049c8d     0x4  Code  Gb  FilePath.o [1]
+mbed::FilePath::fileSystem()
+                        0x10049c91    0x20  Code  Gb  FilePath.o [1]
+mbed::FilePath::isFile()
+                        0x10049cb1    0x16  Code  Gb  FilePath.o [1]
+mbed::SPI::SPI(PinName, PinName, PinName, PinName)
+                        0x10048c7d    0x3c  Code  Gb  SPI.o [1]
+mbed::SPI::_acquire()   0x10048cb9    0x24  Code  Gb  SPI.o [1]
+mbed::SPI::_mutex       0x20002b58    0x28  Data  Gb  SPI.o [1]
+mbed::SPI::_owner       0x20002bf8     0x4  Data  Gb  SPI.o [1]
+mbed::SPI::lock()       0x10048d1b    0x12  Code  Gb  SPI.o [1]
+mbed::SPI::unlock()     0x10048d2d     0xe  Code  Gb  SPI.o [1]
+mbed::SPI::write(char const *, int, char *, int)
+                        0x10048cdd    0x3e  Code  Gb  SPI.o [1]
+mbed::SPI::~SPI()       0x10048017     0x2  Code  Gb  SPI.o [1]
+mbed::Serial::Serial(PinName, PinName, char const *, int)
+                        0x10048bd1     0x2  Code  Gb  Serial.o [1]
+mbed::Serial::_putc(int)
+                        0x10048c0b     0x8  Code  Gb  Serial.o [1]
+mbed::Serial::lock()    0x10048c15     0xe  Code  Gb  Serial.o [1]
+mbed::Serial::unlock()  0x10048c25     0xa  Code  Gb  Serial.o [1]
+mbed::Serial::~Serial()
+                        0x10052335    0x34  Code  Gb  Serial.o [1]
+mbed::SerialBase::SerialBase(PinName, PinName, int)
+                        0x10049ee3    0x88  Code  Gb  SerialBase.o [1]
+mbed::SerialBase::SerialBase(PinName, PinName, int) [subobject]
+                        0x10049ed3     0x8  Code  Gb  SerialBase.o [1]
+mbed::SerialBase::_base_putc(int)
+                        0x1004a00d     0xe  Code  Gb  SerialBase.o [1]
+mbed::SerialBase::_irq_handler(unsigned int, SerialIrq)
+                        0x10049fe1    0x2c  Code  Gb  SerialBase.o [1]
+mbed::SerialBase::attach(mbed::Callback<void ()>, mbed::SerialBase::IrqType)
+                        0x10049f6b    0x76  Code  Gb  SerialBase.o [1]
+mbed::SerialBase::lock()
+                        0x1004a01b     0x2  Code  Gb  SerialBase.o [1]
+mbed::SerialBase::unlock()
+                        0x1004a01d     0x2  Code  Gb  SerialBase.o [1]
+mbed::SerialBase::~SerialBase()
+                        0x1004a01f    0x5e  Code  Gb  SerialBase.o [1]
+mbed::SerialBase::~SerialBase() [subobject]
+                        0x10049edb     0x8  Code  Gb  SerialBase.o [1]
+mbed::Stream::Stream(char const *) [subobject]
+                        0x1004a095     0x4  Code  Gb  Stream.o [1]
+mbed::Stream::close()   0x1004a115     0x4  Code  Gb  Stream.o [1]
+mbed::Stream::isatty()  0x1004a15d     0x4  Code  Gb  Stream.o [1]
+mbed::Stream::lock()    0x1004a73f     0x2  Code  Gb  Stream.o [1]
+mbed::Stream::printf(char const *, ...)
+                        0x1004a161    0x22  Code  Gb  Stream.o [1]
+mbed::Stream::seek(long, int)
+                        0x1004a159     0x4  Code  Gb  Stream.o [1]
+mbed::Stream::unlock()  0x1004b9bb     0x2  Code  Gb  Stream.o [1]
+mbed::Stream::write(void const *, unsigned int)
+                        0x1004a119    0x40  Code  Gb  Stream.o [1]
+mbed::Stream::~Stream() [subobject]
+                        0x1004a099     0x4  Code  Gb  Stream.o [1]
+mbed::Ticker::handler()
+                        0x1004cbc7    0x2a  Code  Gb  Ticker.o [1]
+mbed::Ticker::setup(unsigned long long)
+                        0x1004cb8f    0x38  Code  Gb  Ticker.o [1]
+mbed::Timer::Timer()    0x1004ca5d    0x2a  Code  Gb  Timer.o [1]
+mbed::Timer::read_ms()  0x1004cab5    0x30  Code  Gb  Timer.o [1]
+mbed::Timer::reset()    0x1004cb15    0x24  Code  Gb  Timer.o [1]
+mbed::Timer::slicetime()
+                        0x1004cae5    0x30  Code  Gb  Timer.o [1]
+mbed::Timer::start()    0x1004ca87    0x2e  Code  Gb  Timer.o [1]
+mbed::TimerEvent::TimerEvent() [subobject]
+                        0x1004cb39     0x4  Code  Gb  TimerEvent.o [1]
+mbed::TimerEvent::insert_absolute(unsigned long long)
+                        0x1004cb71    0x10  Code  Gb  TimerEvent.o [1]
+mbed::TimerEvent::irq(unsigned int)
+                        0x1004cb5f     0xa  Code  Gb  TimerEvent.o [1]
+mbed::TimerEvent::remove()
+                        0x1004cb81     0xe  Code  Gb  TimerEvent.o [1]
+mbed::fdopen(mbed::FileHandle *, char const *)
+                        0x1004c1f1     0x8  Code  Gb  FileHandle.o [1]
+mbed::mbed_fdopen(mbed::FileHandle *, char const *)
+                        0x10048965    0x40  Code  Gb  mbed_retarget.o [1]
+mbed::mbed_set_unbuffered_stream(std::__FILE *)
+                        0x10048957     0xe  Code  Gb  mbed_retarget.o [1]
+mbed::remove_filehandle(mbed::FileHandle *)
+                        0x10048581    0x58  Code  Gb  mbed_retarget.o [1]
+mbed_assert_internal    0x1004bb75    0x20  Code  Gb  mbed_assert.o [1]
+mbed_die                0x10049cf1    0xf4  Code  Wk  mbed_board.o [1]
+mbed_error_printf       0x1004851d    0x10  Code  Gb  mbed_board.o [1]
+mbed_error_vfprintf     0x1004852d    0x4a  Code  Gb  mbed_board.o [1]
+mbed_heap_size          0x20002bf0     0x4  Data  Gb  mbed_retarget.o [1]
+mbed_heap_start         0x20002bec     0x4  Data  Gb  mbed_retarget.o [1]
+mbed_main               0x10046b99     0x2  Code  Wk  mbed_boot.o [1]
+mbed_sdk_init           0x10047ffd     0x2  Code  Gb  mbed_overrides.o [1]
+mbed_stack_isr_size     0x20002a3c     0x4  Data  Gb  mbed_boot.o [1]
+mbed_stack_isr_start    0x20002a38     0x4  Data  Gb  mbed_boot.o [1]
+mbed_start_main         0x10046961    0x3c  Code  Gb  mbed_boot.o [1]
+mem_alloc_ctx_p         0x200002dc     0x4  Data  Gb  mem_alloc.o [5]
+memcmp                  0x10044bb9    0x28  Code  Gb  memcmp.o [7]
+memset                  0x1004d4eb    0x14  Code  Gb  memset.o [3]
+microseconds_to_machine_time
+                        0x100441c1     0x8  Code  Gb  routines_support.o [5]
+modulo_37               0x10042b51    0x14  Code  Gb  rom_ll_routines_support.o [5]
+mparams                 0x20002ba4    0x18  Data  Lc  dlmalloc.o [3]
+mtx                     0x20002a84    0x14  Data  Lc  xsyslock_mtx.o [3]
+next_abi_dtor_rec       0x20002c00     0x4  Data  Lc  cppinit.o [3]
+obuf                    0x200027f4    0x50  Data  Lc  xfiles.o [3]
+onDataWrittenCallback(GattWriteCallbackParams const *)
+                        0x10047c99    0x24  Code  Gb  main.o [1]
+operator new (unsigned int)
+                        0x100489a5    0x16  Code  Gb  mbed_retarget.o [1]
+osDelay                 0x1004bb3d    0x24  Code  Gb  rtx_delay.o [1]
+osEventFlagsDelete      0x1004d001    0x32  Code  Gb  rtx_evflags.o [1]
+osEventFlagsNew         0x1004ceb9    0x46  Code  Gb  rtx_evflags.o [1]
+osEventFlagsSet         0x1004cf0d    0x70  Code  Gb  rtx_evflags.o [1]
+osEventFlagsWait        0x1004cf7d    0x84  Code  Gb  rtx_evflags.o [1]
+osEventObs              0x20002bd8     0x4  Data  Gb  rt_OsEventObserver.o [1]
+osKernelGetState        0x100476f1    0x3c  Code  Gb  rtx_kernel.o [1]
+osKernelInitialize      0x100476a1    0x36  Code  Gb  rtx_kernel.o [1]
+osKernelStart           0x1004772d    0x4e  Code  Gb  rtx_kernel.o [1]
+osMessageQueueGet       0x1004dce1    0x9c  Code  Gb  rtx_msgqueue.o [1]
+osMessageQueueNew       0x1004dbed    0x4e  Code  Gb  rtx_msgqueue.o [1]
+osMessageQueuePut       0x1004dc3d    0xa2  Code  Gb  rtx_msgqueue.o [1]
+osMutexAcquire          0x10047b2d    0x28  Code  Gb  rtx_mutex.o [1]
+osMutexDelete           0x10047b89    0x24  Code  Gb  rtx_mutex.o [1]
+osMutexNew              0x10047ae1    0x46  Code  Gb  rtx_mutex.o [1]
+osMutexRelease          0x10047b55    0x24  Code  Gb  rtx_mutex.o [1]
+osRegisterForOsEvents::has_been_called
+                        0x20002bd4     0x1  Data  Lc  rt_OsEventObserver.o [1]
+osRtxConfig             0x10051b88    0x68  Data  Gb  rtx_lib.o [1]
+osRtxErrorNotify        0x10048021    0x60  Code  Gb  mbed_rtx_handlers.o [1]
+osRtxEventFlagsPostProcess
+                        0x1004cc41    0x46  Code  Gb  rtx_evflags.o [1]
+osRtxIdleThread         0x10048019     0x6  Code  Gb  mbed_rtx_handlers.o [1]
+osRtxInfo               0x200003c0    0xa4  Data  Gb  rtx_kernel.o [1]
+osRtxMemoryAlloc        0x10048451    0x70  Code  Wk  rtx_memory.o [1]
+osRtxMemoryFree         0x100484c1    0x4e  Code  Wk  rtx_memory.o [1]
+osRtxMemoryInit         0x100489dd    0x3e  Code  Wk  rtx_memory.o [1]
+osRtxMemoryPoolAlloc    0x100483cb    0x40  Code  Gb  rtx_mempool.o [1]
+osRtxMemoryPoolFree     0x1004840b    0x46  Code  Gb  rtx_mempool.o [1]
+osRtxMemoryPoolInit     0x10048385    0x46  Code  Gb  rtx_mempool.o [1]
+osRtxMessageQueuePostProcess
+                        0x1004d781    0xfe  Code  Gb  rtx_msgqueue.o [1]
+osRtxMutexOwnerRelease  0x100477a1    0x4e  Code  Gb  rtx_mutex.o [1]
+osRtxPendSV_Handler     0x1004d583    0x76  Code  Gb  rtx_system.o [1]
+osRtxPostProcess        0x1004d5f9    0x66  Code  Gb  rtx_system.o [1]
+osRtxThreadBlock        0x10046dfd    0x30  Code  Gb  rtx_thread.o [1]
+osRtxThreadDelayRemove  0x10046c85    0x66  Code  Gb  rtx_thread.o [1]
+osRtxThreadDelayTick    0x10046ceb   0x10c  Code  Gb  rtx_thread.o [1]
+osRtxThreadDispatch     0x10046e4d    0x6a  Code  Gb  rtx_thread.o [1]
+osRtxThreadFree         0x1004724d    0x44  Code  Lc  rtx_thread.o [1]
+osRtxThreadListGet      0x10046c1d    0x1a  Code  Gb  rtx_thread.o [1]
+osRtxThreadListPut      0x10046bed    0x30  Code  Gb  rtx_thread.o [1]
+osRtxThreadListRemove   0x10046c5b    0x1a  Code  Gb  rtx_thread.o [1]
+osRtxThreadListSort     0x10046c37    0x24  Code  Gb  rtx_thread.o [1]
+osRtxThreadPostProcess  0x10046f8f    0x54  Code  Gb  rtx_thread.o [1]
+osRtxThreadReadyPut     0x10046c75    0x10  Code  Gb  rtx_thread.o [1]
+osRtxThreadRegPtr       0x10046df7     0x6  Code  Gb  rtx_thread.o [1]
+osRtxThreadStackCheck   0x10047405    0x2c  Code  Wk  rtx_thread.o [1]
+osRtxThreadSwitch       0x10046e2d    0x18  Code  Gb  rtx_thread.o [1]
+osRtxThreadWaitEnter    0x10046ee9    0xa6  Code  Gb  rtx_thread.o [1]
+osRtxThreadWaitExit     0x10046eb7    0x32  Code  Gb  rtx_thread.o [1]
+osRtxTick_Handler       0x1004d511    0x72  Code  Gb  rtx_system.o [1]
+osRtxTimerThread        0x10050dd5    0x54  Code  Wk  rtx_timer.o [1]
+osRtxTimerTick          0x10050d75    0x5a  Code  Gb  rtx_timer.o [1]
+osRtxUserSVC            0x10052ed8     0x4  Data  Wk  rtx_lib.o [1]
+osThreadContextNew      0x10047345    0x50  Code  Gb  rtx_thread.o [1]
+osThreadExit            0x100473dd    0x16  Code  Gb  rtx_thread.o [1]
+osThreadGetId           0x100473b9    0x24  Code  Gb  rtx_thread.o [1]
+osThreadGetName         0x10047395    0x24  Code  Gb  rtx_thread.o [1]
+osThreadNew             0x10047339     0xa  Code  Gb  rtx_thread.o [1]
+os_idle_thread_attr     0x10051d80    0x24  Data  Lc  rtx_lib.o [1]
+os_idle_thread_cb       0x20002894    0x48  Data  Lc  rtx_lib.o [1]
+os_idle_thread_stack    0x20002070   0x200  Data  Lc  rtx_lib.o [1]
+os_isr_queue            0x200029a8    0x40  Data  Lc  rtx_lib.o [1]
+os_timer_mq_attr        0x10051dc8    0x18  Data  Lc  rtx_lib.o [1]
+os_timer_mq_cb          0x20002acc    0x34  Data  Lc  rtx_lib.o [1]
+os_timer_mq_data        0x20002844    0x50  Data  Lc  rtx_lib.o [1]
+os_timer_thread_attr    0x10051da4    0x24  Data  Lc  rtx_lib.o [1]
+os_timer_thread_cb      0x200028dc    0x48  Data  Lc  rtx_lib.o [1]
+os_timer_thread_stack   0x20001d70   0x300  Data  Lc  rtx_lib.o [1]
+ota_sw_activation       0x20000004     0x4  Data  Gb  system_bluenrg1.o [1]
+ota_sw_activation_block$$Base
+                        0x20000004           --   Gb  - Linker created -
+ota_sw_activation_block$$Limit
+                        0x20000008           --   Gb  - Linker created -
+pre_main                0x1004699d    0x32  Code  Gb  mbed_boot.o [1]
+prepend_alloc           0x10045151   0x35e  Code  Lc  dlmalloc.o [3]
+pressCharHandle         0x200029f2     0x2  Data  Gb  gatt_db.o [1]
+printMacAddress()       0x10047cbd    0x5a  Code  Gb  main.o [1]
+printf                  0x10049275    0x24  Code  Gb  printf.o [3]
+putchar                 0x10052cb9    0x10  Code  Gb  putchar.o [3]
+rcon                    0x100509e8    0x28  Data  Gb  crypto.o [5]
+read_rssi               0x100431b9    0x68  Code  Gb  ll_routines.o [5]
+remove                  0x10048909    0x40  Code  Gb  mbed_retarget.o [1]
+rtos::Mutex::Mutex()    0x10049b41    0x4a  Code  Gb  Mutex.o [1]
+rtos::Mutex::lock(unsigned int)
+                        0x10049b91    0x16  Code  Gb  Mutex.o [1]
+rtos::Mutex::unlock()   0x10049ba7    0x10  Code  Gb  Mutex.o [1]
+rtos::Mutex::~Mutex()   0x10049bb7     0x2  Code  Gb  Mutex.o [1]
+rtos::Thread::wait(unsigned int)
+                        0x100498d9     0x8  Code  Gb  Thread.o [1]
+rtos_idle_loop          0x100498b5     0xa  Code  Gb  mbed_rtx_idle.o [1]
+savedMSP                0x20000008     0x4  Data  Gb  system_bluenrg1.o [1]
+savedMSP_block$$Base    0x20000008           --   Gb  - Linker created -
+savedMSP_block$$Limit   0x2000000c           --   Gb  - Linker created -
+scale                   0x1004b283    0x42  Code  Lc  xprintflarge.o [3]
+scheduleBleEventsProcessing(BLE::OnEventsToProcessCallbackContext *)
+                        0x10047e65    0x4e  Code  Gb  main.o [1]
+schedule_interrupt      0x1004d30d    0x68  Code  Lc  mbed_ticker_api.o [1]
+segment_holding         0x100450c5    0x1c  Code  Lc  dlmalloc.o [3]
+serial_baud             0x10049a29     0x6  Code  Gb  serial_api.o [1]
+serial_init             0x1004999d    0x76  Code  Gb  serial_api.o [1]
+serial_irq_handler      0x10049a2f     0xa  Code  Gb  serial_api.o [1]
+serial_irq_ids          0x20002be0     0x4  Data  Lc  serial_api.o [1]
+serial_irq_set          0x10049a39    0x2c  Code  Gb  serial_api.o [1]
+serial_putc             0x10049a13    0x16  Code  Gb  serial_api.o [1]
+serialport              0x2000259c    0x74  Data  Gb  main.o [1]
+service_uuid            0x200029f4    0x10  Data  Gb  gatt_db.o [1]
+set_sca                 0x10044169    0x1c  Code  Gb  rom_ll_timehandling.o [5]
+set_string              0x10042fa1    0x10  Code  Gb  hal.o [5]
+setvbuf                 0x10049de5    0xb0  Code  Gb  setvbuf.o [3]
+singleton_mutex_attr    0x20002a28    0x10  Data  Gb  mbed_boot.o [1]
+singleton_mutex_id      0x20002a40     0x4  Data  Gb  mbed_boot.o [1]
+singleton_mutex_obj     0x20002a44    0x1c  Data  Gb  mbed_boot.o [1]
+slave_advance           0x1004ff9d    0xf0  Code  Gb  routines_support.o [5]
+sleep_manager_lock_deep_sleep
+                        0x1004bb25     0x2  Code  Gb  mbed_sleep_manager.o [1]
+sleep_manager_unlock_deep_sleep
+                        0x1004bb27     0x2  Code  Gb  mbed_sleep_manager.o [1]
+smp_Add_To_Database     0x10050425   0x146  Code  Gb  sm_common.o [5]
+smp_Find_Remote_Device_Index
+                        0x100508a9    0x3a  Code  Gb  sm_common.o [5]
+smp_Keys_Distribution_Complete
+                        0x10051225    0x46  Code  Lc  sm_common.o [5]
+smp_OOB_Clear_Remote_Data_Entry_by_Index
+                        0x10051315    0x1a  Code  Gb  sm_common.o [5]
+smp_Pairing_Completed   0x1005126d    0xa2  Code  Gb  sm_common.o [5]
+smp____SC_hci_le_generate_dhkey_complete_evt_hndl
+                        0x100524a5    0x22  Code  Gb  smp_scv42_isap.o [5]
+smp____SC_hci_le_read_local_p256_public_key_complete_evt_hndl
+                        0x100521a9    0x3c  Code  Gb  smp_scv42_isap.o [5]
+smp____SC_is_Debug_Key_Usage_Forced
+                        0x100521ed    0x10  Code  Gb  smp_scv42_isap.o [5]
+smp____SC_submit_ECC_PK_generation_request
+                        0x10051335    0x16  Code  Gb  smp_scv42_isap.o [5]
+spi                     0x20002610    0x24  Data  Gb  main.o [1]
+spi_format              0x1004a28d    0x60  Code  Gb  spi_api.o [1]
+spi_frequency           0x1004a2ed     0xa  Code  Gb  spi_api.o [1]
+spi_init                0x1004a1b9    0xd0  Code  Gb  spi_api.o [1]
+spi_master_block_write  0x1004a2f7    0xb2  Code  Gb  spi_api.o [1]
+std_mutex_file          0x20002470   0x118  Data  Lc  mbed_boot.o [1]
+std_mutex_id_file       0x20002448    0x28  Data  Lc  mbed_boot.o [1]
+std_mutex_id_sys        0x2000269c    0x14  Data  Lc  mbed_boot.o [1]
+std_mutex_sys           0x200026b0    0x8c  Data  Lc  mbed_boot.o [1]
+stdio_uart              0x20002bbc    0x10  Data  Gb  serial_api.o [1]
+stdio_uart_inited       0x20002bf4     0x4  Data  Gb  serial_api.o [1]
+strcmp                  0x10049c19    0x22  Code  Gb  strcmp.o [7]
+strlen                  0x1004c4b1    0x10  Code  Gb  strlen.o [7]
+strncmp                 0x1004d04b    0x2c  Code  Gb  strncmp.o [3]
+svcRtxDelay             0x1004bb29    0x14  Code  Gb  rtx_delay.o [1]
+svcRtxEventFlagsDelete  0x1004ce45    0x72  Code  Gb  rtx_evflags.o [1]
+svcRtxEventFlagsNew     0x1004cc87    0x76  Code  Gb  rtx_evflags.o [1]
+svcRtxEventFlagsSet     0x1004ccfd    0xa2  Code  Gb  rtx_evflags.o [1]
+svcRtxEventFlagsWait    0x1004cd9f    0xa6  Code  Gb  rtx_evflags.o [1]
+svcRtxKernelGetState    0x100475e1     0xe  Code  Gb  rtx_kernel.o [1]
+svcRtxKernelInitialize  0x10047459   0x17a  Code  Gb  rtx_kernel.o [1]
+svcRtxKernelStart       0x100475ef    0xa6  Code  Gb  rtx_kernel.o [1]
+svcRtxMessageQueueGet   0x1004dad7   0x106  Code  Gb  rtx_msgqueue.o [1]
+svcRtxMessageQueueNew   0x1004d87f   0x16e  Code  Gb  rtx_msgqueue.o [1]
+svcRtxMessageQueuePut   0x1004d9ed    0xea  Code  Gb  rtx_msgqueue.o [1]
+svcRtxMutexAcquire      0x1004786b    0xca  Code  Gb  rtx_mutex.o [1]
+svcRtxMutexDelete       0x10047a27    0xba  Code  Gb  rtx_mutex.o [1]
+svcRtxMutexNew          0x100477ef    0x7c  Code  Gb  rtx_mutex.o [1]
+svcRtxMutexRelease      0x10047935    0xdc  Code  Gb  rtx_mutex.o [1]
+svcRtxThreadExit        0x10047291    0xa0  Code  Gb  rtx_thread.o [1]
+svcRtxThreadGetId       0x1004721d    0x10  Code  Gb  rtx_thread.o [1]
+svcRtxThreadGetName     0x100471f3    0x2a  Code  Gb  rtx_thread.o [1]
+svcRtxThreadNew         0x10046fed   0x206  Code  Gb  rtx_thread.o [1]
+swap_char               0x10044155     0xa  Code  Lc  multi_master_time.o [5]
+swap_short_int          0x1004415f     0xa  Code  Lc  multi_master_time.o [5]
+sys_alloc               0x100454b9   0x3e8  Code  Lc  dlmalloc.o [3]
+syslock_o               0x20002a60     0x4  Data  Lc  xsyslock_mtx.o [3]
+system_time_trans       0x10043149     0xa  Code  Gb  rom_ll_timehandling.o [5]
+system_time_trans_ext   0x100441c9    0x26  Code  Gb  rom_ll_timehandling.o [5]
+tempCharHandle          0x200029f0     0x2  Data  Gb  gatt_db.o [1]
+terminate_hook          0x20002bfc     0x4  Data  Lc  Thread.o [1]
+thread_terminate_hook   0x100498c5    0x10  Code  Gb  Thread.o [1]
+ticker_insert_event_us  0x1004d385    0x52  Code  Gb  mbed_ticker_api.o [1]
+ticker_read             0x1004d40b     0x4  Code  Gb  mbed_ticker_api.o [1]
+ticker_read_us          0x1004d40f     0x2  Code  Gb  mbed_ticker_api.o [1]
+ticker_remove_event     0x1004d3d7    0x34  Code  Gb  mbed_ticker_api.o [1]
+ticker_set_handler      0x1004d375    0x10  Code  Gb  mbed_ticker_api.o [1]
+time_offset1            0x10044193     0xe  Code  Gb  rom_ll_timehandling.o [5]
+time_offset2            0x100441b1     0xc  Code  Gb  rom_ll_timehandling.o [5]
+timebase_start_connect  0x100440e1    0x36  Code  Gb  multi_master_time.o [5]
+tmalloc_large           0x100458ad   0x3ca  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x10045c7d   0x230  Code  Lc  dlmalloc.o [3]
+touch_it                0x20000564     0x1  Data  Gb  rom_global_var.o [5]
+unpack_channel_map      0x1004289f    0x38  Code  Gb  rom_ll_isr_routines.o [5]
+unpack_update_request   0x10042859    0x46  Code  Gb  rom_ll_isr_routines.o [5]
+update_present_time     0x1004d1a5    0xf4  Code  Lc  mbed_ticker_api.o [1]
+us_data                 0x1004d07c     0x8  Data  Lc  mbed_us_ticker_api.o [1]
+us_interface            0x10052ab8    0x1c  Data  Lc  mbed_us_ticker_api.o [1]
+us_ticker_clear_interrupt
+                        0x1005158d     0x2  Code  Gb  us_ticker_api.o [1]
+us_ticker_disable_interrupt
+                        0x10051573     0xc  Code  Gb  us_ticker_api.o [1]
+us_ticker_fire_interrupt
+                        0x1005158f     0x2  Code  Gb  us_ticker_api.o [1]
+us_ticker_get_info      0x10052ec1     0x8  Code  Wk  mbed_retarget.o [1]
+us_ticker_get_info::info
+                        0x10052ea8     0x8  Data  Lc  mbed_retarget.o [1]
+us_ticker_init          0x100514f3    0x5c  Code  Gb  us_ticker_api.o [1]
+us_ticker_read          0x1005154f    0x18  Code  Gb  us_ticker_api.o [1]
+us_ticker_set_interrupt
+                        0x10051567     0xc  Code  Gb  us_ticker_api.o [1]
+uuid16_list             0x10047fc4     0x2  Data  Lc  main.o [1]
+vfprintf                0x1004c32d    0x2c  Code  Gb  vfprintf.o [3]
+void events::EventQueue::function_call<mbed::Callback<void ()>>(void *)
+                        0x100523fd    0x28  Code  Gb  main.o [1]
+void events::EventQueue::function_call<void (*)()>(void *)
+                        0x10052eb9     0x8  Code  Gb  main.o [1]
+void events::EventQueue::function_dtor<mbed::Callback<void ()>>(void *)
+                        0x10052d95    0x10  Code  Gb  main.o [1]
+void events::EventQueue::function_dtor<void (*)()>(void *)
+                        0x10046b9b     0x2  Code  Gb  main.o [1]
+void mbed::Callback<void ()>::function_call<mbed::Callback<void ()>::method_context<BLE, void (BLE::*)()>>(void const *)
+                        0x10041cfb    0x1e  Code  Gb  main.o [1]
+void mbed::Callback<void ()>::function_call<void (*)()>(void const *)
+                        0x10052ec9     0x8  Code  Gb  Ticker.o [1]
+void mbed::Callback<void ()>::function_dtor<mbed::Callback<void ()>::method_context<BLE, void (BLE::*)()>>(void *)
+                        0x10046787     0x2  Code  Gb  main.o [1]
+void mbed::Callback<void ()>::function_dtor<void (*)()>(void *)
+                        0x1004be23     0x2  Code  Gb  Ticker.o [1]
+void mbed::Callback<void ()>::function_move<mbed::Callback<void ()>::method_context<BLE, void (BLE::*)()>>(void *, void const *)
+                        0x10052d85    0x10  Code  Gb  main.o [1]
+void mbed::Callback<void ()>::function_move<void (*)()>(void *, void const *)
+                        0x10044437     0xa  Code  Gb  Ticker.o [1]
+void mbed::Callback<void ()>::generate<mbed::Callback<void ()>::method_context<BLE, void (BLE::*)()>>(mbed::Callback<void ()>::method_context<BLE, void (BLE::*)()> const &)::ops
+                        0x10052e54     0xc  Data  Gb  main.o [1]
+void mbed::Callback<void ()>::generate<void (*)()>(void (*)() const &)::ops
+                        0x10052e60     0xc  Data  Gb  Ticker.o [1]
+void mbed::Callback<void (int)>::function_call<void (*)(int)>(void const *, int)
+                        0x10052e6d     0xc  Code  Gb  EventQueue.o [1]
+void mbed::Callback<void (int)>::function_dtor<void (*)(int)>(void *)
+                        0x1004476f     0x2  Code  Gb  EventQueue.o [1]
+void mbed::Callback<void (int)>::function_move<void (*)(int)>(void *, void const *)
+                        0x10043fbf     0xa  Code  Gb  EventQueue.o [1]
+void mbed::Callback<void (int)>::generate<void (*)(int)>(void (*)(int) const &)::ops
+                        0x10052e48     0xc  Data  Gb  EventQueue.o [1]
+vsnprintf               0x10049961    0x3c  Code  Gb  vsnprint.o [3]
+wait_ms                 0x1004bf29     0xe  Code  Gb  mbed_wait_api_rtos.o [1]
+wait_us                 0x1004bf37     0x2  Code  Gb  mbed_wait_api_rtos.o [1]
+wakeupFromSleepFlag     0x2000000c     0x1  Data  Gb  system_bluenrg1.o [1]
+wakeupFromSleepFlag_block$$Base
+                        0x2000000c           --   Gb  - Linker created -
+wakeupFromSleepFlag_block$$Limit
+                        0x20000010           --   Gb  - Linker created -
+
+
+[1] = C:\Users\Gianluca\mbedOSdev\pv3\BUILD\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = dlpp6M_tl_fc.a
+[5] = libbluenrg1_stack.a
+[6] = m6M_tl.a
+[7] = rt6M_tl.a
+
+  75 282 bytes of readonly  code memory
+   2 433 bytes of readonly  data memory
+  16 986 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

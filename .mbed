@@ -1,0 +1,3 @@
+ROOT=.
+TARGET=STEVAL_IDB007V1
+IAR_PATH=C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm
